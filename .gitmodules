@@ -4,3 +4,6 @@
 [submodule "Externals/blindside"]
 	path = Externals/blindside
 	url = git@github.com:jbsf/blindside.git
+[submodule "Externals/deferred"]
+	path = Externals/deferred
+	url = git@github.com:kseebaldt/deferred.git

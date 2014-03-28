@@ -22,6 +22,8 @@
 		4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C833A9F18E50DD30011D3C3 /* libCedar-StaticLib.a */; };
 		4CA4827118E5100B00E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
 		4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
+		4CA4828418E5107C00E524B6 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4827D18E5106800E524B6 /* libDeferred.a */; };
+		4CA4828718E5108900E524B6 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4827D18E5106800E524B6 /* libDeferred.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +139,41 @@
 			remoteGlobalIDString = 29997B461505EC0B00C12110;
 			remoteInfo = "Blindside-StaticLib";
 		};
+		4CA4827C18E5106800E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E18A7B1515674D9B0083D745;
+			remoteInfo = Deferred;
+		};
+		4CA4827E18E5106800E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E18A7B3015674EC20083D745;
+			remoteInfo = "Deferred-OSX";
+		};
+		4CA4828018E5106800E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E18A7B4415674ED10083D745;
+			remoteInfo = Specs;
+		};
+		4CA4828218E5107700E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E18A7B1415674D9B0083D745;
+			remoteInfo = Deferred;
+		};
+		4CA4828518E5108200E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E18A7B1415674D9B0083D745;
+			remoteInfo = Deferred;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +194,7 @@
 		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA4825318E50EE900E524B6 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
+		4CA4827518E5106800E524B6 /* Deferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Deferred.xcodeproj; path = deferred/Deferred.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA4827118E5100B00E524B6 /* libBlindside-StaticLib.a in Frameworks */,
+				4CA4828418E5107C00E524B6 /* libDeferred.a in Frameworks */,
 				4C1650CF18E50CA1000336FD /* CoreGraphics.framework in Frameworks */,
 				4C1650D118E50CA1000336FD /* UIKit.framework in Frameworks */,
 				4C1650CD18E50CA1000336FD /* Foundation.framework in Frameworks */,
@@ -177,6 +216,7 @@
 			files = (
 				4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */,
 				4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */,
+				4CA4828718E5108900E524B6 /* libDeferred.a in Frameworks */,
 				4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */,
 				4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */,
 				4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */,
@@ -243,6 +283,7 @@
 			children = (
 				4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */,
 				4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */,
+				4CA4827518E5106800E524B6 /* Deferred.xcodeproj */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -292,6 +333,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4CA4827618E5106800E524B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA4827D18E5106800E524B6 /* libDeferred.a */,
+				4CA4827F18E5106800E524B6 /* libDeferred-OSX.a */,
+				4CA4828118E5106800E524B6 /* Specs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +358,7 @@
 			);
 			dependencies = (
 				4CA4827018E5100700E524B6 /* PBXTargetDependency */,
+				4CA4828318E5107700E524B6 /* PBXTargetDependency */,
 			);
 			name = BestPractices;
 			productName = BestPractices;
@@ -326,6 +378,7 @@
 			dependencies = (
 				4CA4827318E5100F00E524B6 /* PBXTargetDependency */,
 				4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */,
+				4CA4828618E5108200E524B6 /* PBXTargetDependency */,
 			);
 			name = Specs;
 			productName = Specs;
@@ -359,6 +412,10 @@
 				{
 					ProductGroup = 4C833A8B18E50DD30011D3C3 /* Products */;
 					ProjectRef = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
+				},
+				{
+					ProductGroup = 4CA4827618E5106800E524B6 /* Products */;
+					ProjectRef = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -461,6 +518,27 @@
 			remoteRef = 4CA4826D18E50FF800E524B6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4CA4827D18E5106800E524B6 /* libDeferred.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDeferred.a;
+			remoteRef = 4CA4827C18E5106800E524B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CA4827F18E5106800E524B6 /* libDeferred-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libDeferred-OSX.a";
+			remoteRef = 4CA4827E18E5106800E524B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CA4828118E5106800E524B6 /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 4CA4828018E5106800E524B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -519,6 +597,16 @@
 			name = "Blindside-StaticLib";
 			targetProxy = 4CA4827218E5100F00E524B6 /* PBXContainerItemProxy */;
 		};
+		4CA4828318E5107700E524B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Deferred;
+			targetProxy = 4CA4828218E5107700E524B6 /* PBXContainerItemProxy */;
+		};
+		4CA4828618E5108200E524B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Deferred;
+			targetProxy = 4CA4828518E5108200E524B6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -562,7 +650,7 @@
 					"-lstdc++",
 				);
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/blindside/Headers";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/blindside/Headers $(PROJECT_DIR)/Externals/deferred/Deferred";
 			};
 			name = Debug;
 		};
@@ -599,7 +687,7 @@
 					"-lstdc++",
 				);
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/blindside/Headers";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/blindside/Headers $(PROJECT_DIR)/Externals/deferred/Deferred";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
