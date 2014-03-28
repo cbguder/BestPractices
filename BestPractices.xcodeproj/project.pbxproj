@@ -13,6 +13,15 @@
 		4C1650D918E50CA1000336FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650D818E50CA1000336FD /* main.m */; };
 		4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650DC18E50CA1000336FD /* AppDelegate.m */; };
 		4C1650DF18E50CA1000336FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1650DE18E50CA1000336FD /* Images.xcassets */; };
+		4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A718E5133900FA565A /* AppDelegateSpec.mm */; };
+		4C8145AC18E5133900FA565A /* SpecHelper+BestPractices.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */; };
+		4C8145BC18E5169700FA565A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ViewController.m */; };
+		4C8145BD18E5169700FA565A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ViewController.m */; };
+		4C8145BE18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
+		4C8145BF18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
+		4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
+		4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
+		4C8145C618E5182600FA565A /* UIModuleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C518E5182600FA565A /* UIModuleSpec.mm */; };
 		4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650D018E50CA1000336FD /* UIKit.framework */; };
 		4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
 		4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CE18E50CA1000336FD /* CoreGraphics.framework */; };
@@ -188,6 +197,16 @@
 		4C1650DC18E50CA1000336FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C1650DE18E50CA1000336FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C1650E518E50CA1000336FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C8145A718E5133900FA565A /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
+		4C8145A818E5133900FA565A /* SpecHelper+BestPractices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpecHelper+BestPractices.h"; sourceTree = "<group>"; };
+		4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SpecHelper+BestPractices.m"; sourceTree = "<group>"; };
+		4C8145B718E5169700FA565A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C8145B818E5169700FA565A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C8145BA18E5169700FA565A /* UIModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIModule.h; sourceTree = "<group>"; };
+		4C8145BB18E5169700FA565A /* UIModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIModule.m; sourceTree = "<group>"; };
+		4C8145C018E5173700FA565A /* InjectorKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorKeys.h; sourceTree = "<group>"; };
+		4C8145C118E5173700FA565A /* InjectorKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorKeys.m; sourceTree = "<group>"; };
+		4C8145C518E5182600FA565A /* UIModuleSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIModuleSpec.mm; sourceTree = "<group>"; };
 		4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		4CA4824718E50EE900E524B6 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA4824D18E50EE900E524B6 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
@@ -262,7 +281,9 @@
 			children = (
 				4C1650DB18E50CA1000336FD /* AppDelegate.h */,
 				4C1650DC18E50CA1000336FD /* AppDelegate.m */,
+				4C8145B618E5169700FA565A /* Controllers */,
 				4C1650DE18E50CA1000336FD /* Images.xcassets */,
+				4C8145B918E5169700FA565A /* Modules */,
 				4C1650D318E50CA1000336FD /* Supporting Files */,
 			);
 			path = BestPractices;
@@ -276,6 +297,34 @@
 				4C1650DA18E50CA1000336FD /* BestPractices-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C8145B618E5169700FA565A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C8145B718E5169700FA565A /* ViewController.h */,
+				4C8145B818E5169700FA565A /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C8145B918E5169700FA565A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4C8145C018E5173700FA565A /* InjectorKeys.h */,
+				4C8145C118E5173700FA565A /* InjectorKeys.m */,
+				4C8145BA18E5169700FA565A /* UIModule.h */,
+				4C8145BB18E5169700FA565A /* UIModule.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4C8145C418E5181200FA565A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4C8145C518E5182600FA565A /* UIModuleSpec.mm */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		4C833A8918E50DBE0011D3C3 /* Externals */ = {
@@ -308,6 +357,10 @@
 		4CA4824B18E50EE900E524B6 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
+				4C8145A718E5133900FA565A /* AppDelegateSpec.mm */,
+				4C8145C418E5181200FA565A /* Modules */,
+				4C8145A818E5133900FA565A /* SpecHelper+BestPractices.h */,
+				4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */,
 				4CA4824C18E50EE900E524B6 /* Supporting Files */,
 			);
 			path = Specs;
@@ -565,6 +618,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */,
+				4C8145BC18E5169700FA565A /* ViewController.m in Sources */,
+				4C8145BE18E5169700FA565A /* UIModule.m in Sources */,
 				4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */,
 				4C1650D918E50CA1000336FD /* main.m in Sources */,
 			);
@@ -574,8 +630,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */,
 				4CA4825C18E50F0E00E524B6 /* AppDelegate.m in Sources */,
+				4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */,
 				4CA4825218E50EE900E524B6 /* main.m in Sources */,
+				4C8145BF18E5169700FA565A /* UIModule.m in Sources */,
+				4C8145AC18E5133900FA565A /* SpecHelper+BestPractices.m in Sources */,
+				4C8145C618E5182600FA565A /* UIModuleSpec.mm in Sources */,
+				4C8145BD18E5169700FA565A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
