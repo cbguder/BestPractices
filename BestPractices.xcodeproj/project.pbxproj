@@ -20,6 +20,8 @@
 		4CA4825C18E50F0E00E524B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650DC18E50CA1000336FD /* AppDelegate.m */; };
 		4CA4825D18E50F1100E524B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1650DE18E50CA1000336FD /* Images.xcassets */; };
 		4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C833A9F18E50DD30011D3C3 /* libCedar-StaticLib.a */; };
+		4CA4827118E5100B00E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
+		4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,41 @@
 			remoteGlobalIDString = AEEE222811DC2B0600029872;
 			remoteInfo = "Cedar-StaticLib";
 		};
+		4CA4826918E50FF800E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC6E4150292AD00731862;
+			remoteInfo = Blindside;
+		};
+		4CA4826B18E50FF800E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC7001502932000731862;
+			remoteInfo = Specs;
+		};
+		4CA4826D18E50FF800E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29997B471505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
+		4CA4826F18E5100700E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 29997B461505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
+		4CA4827218E5100F00E524B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 29997B461505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +156,7 @@
 		4CA4824D18E50EE900E524B6 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA4825318E50EE900E524B6 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA4827118E5100B00E524B6 /* libBlindside-StaticLib.a in Frameworks */,
 				4C1650CF18E50CA1000336FD /* CoreGraphics.framework in Frameworks */,
 				4C1650D118E50CA1000336FD /* UIKit.framework in Frameworks */,
 				4C1650CD18E50CA1000336FD /* Foundation.framework in Frameworks */,
@@ -136,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */,
 				4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */,
 				4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */,
 				4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */,
@@ -201,6 +241,7 @@
 		4C833A8918E50DBE0011D3C3 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */,
 				4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */,
 			);
 			path = Externals;
@@ -241,6 +282,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4CA4826218E50FF800E524B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA4826A18E50FF800E524B6 /* Blindside.framework */,
+				4CA4826C18E50FF800E524B6 /* Specs */,
+				4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,6 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4CA4827018E5100700E524B6 /* PBXTargetDependency */,
 			);
 			name = BestPractices;
 			productName = BestPractices;
@@ -272,6 +324,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4CA4827318E5100F00E524B6 /* PBXTargetDependency */,
 				4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */,
 			);
 			name = Specs;
@@ -299,6 +352,10 @@
 			productRefGroup = 4C1650CA18E50CA1000336FD /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 4CA4826218E50FF800E524B6 /* Products */;
+					ProjectRef = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
+				},
 				{
 					ProductGroup = 4C833A8B18E50DD30011D3C3 /* Products */;
 					ProjectRef = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
@@ -383,6 +440,27 @@
 			remoteRef = 4C833AAA18E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4CA4826A18E50FF800E524B6 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 4CA4826918E50FF800E524B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CA4826C18E50FF800E524B6 /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 4CA4826B18E50FF800E524B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBlindside-StaticLib.a";
+			remoteRef = 4CA4826D18E50FF800E524B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -431,6 +509,16 @@
 			name = "Cedar-StaticLib";
 			targetProxy = 4CA4825E18E50FAE00E524B6 /* PBXContainerItemProxy */;
 		};
+		4CA4827018E5100700E524B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Blindside-StaticLib";
+			targetProxy = 4CA4826F18E5100700E524B6 /* PBXContainerItemProxy */;
+		};
+		4CA4827318E5100F00E524B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Blindside-StaticLib";
+			targetProxy = 4CA4827218E5100F00E524B6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -468,7 +556,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/blindside/Headers";
 			};
 			name = Debug;
 		};
@@ -499,7 +593,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/blindside/Headers";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -538,12 +638,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
 				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-all_load",
-					"-lstdc++",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
 				WRAPPER_EXTENSION = app;
@@ -559,12 +653,6 @@
 				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
 				INFOPLIST_FILE = "Specs/Specs-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-all_load",
-					"-lstdc++",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
 				WRAPPER_EXTENSION = app;
