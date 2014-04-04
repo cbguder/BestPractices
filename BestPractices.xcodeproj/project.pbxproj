@@ -22,6 +22,14 @@
 		4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
 		4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
 		4C8145C618E5182600FA565A /* UIModuleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C518E5182600FA565A /* UIModuleSpec.mm */; };
+		4C8145C918E5194900FA565A /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C818E5194900FA565A /* ViewControllerSpec.mm */; };
+		4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
+		4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
+		4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
+		4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
+		4CA3C86418E77C840082556D /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* APIClient.m */; };
+		4CA3C86518E77C840082556D /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* APIClient.m */; };
+		4CA3C88318E78E070082556D /* CellPresenterDataSourceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */; };
 		4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650D018E50CA1000336FD /* UIKit.framework */; };
 		4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
 		4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CE18E50CA1000336FD /* CoreGraphics.framework */; };
@@ -33,6 +41,13 @@
 		4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
 		4CA4828418E5107C00E524B6 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4827D18E5106800E524B6 /* libDeferred.a */; };
 		4CA4828718E5108900E524B6 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4827D18E5106800E524B6 /* libDeferred.a */; };
+		4CAA2CF018E79C9B00488E9B /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CEF18E79C9B00488E9B /* Artist.m */; };
+		4CAA2CF118E79C9B00488E9B /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CEF18E79C9B00488E9B /* Artist.m */; };
+		4CAA2CF418E79CEA00488E9B /* ArtistCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */; };
+		4CAA2CF518E79CEA00488E9B /* ArtistCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */; };
+		AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */; };
+		AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */; };
+		AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,13 +222,30 @@
 		4C8145C018E5173700FA565A /* InjectorKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorKeys.h; sourceTree = "<group>"; };
 		4C8145C118E5173700FA565A /* InjectorKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorKeys.m; sourceTree = "<group>"; };
 		4C8145C518E5182600FA565A /* UIModuleSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIModuleSpec.mm; sourceTree = "<group>"; };
+		4C8145C818E5194900FA565A /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
 		4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		4CA3C85918E77B3B0082556D /* CellPresenterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPresenterDataSource.h; sourceTree = "<group>"; };
+		4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPresenterDataSource.m; sourceTree = "<group>"; };
+		4CA3C85D18E77BB70082556D /* ArtistsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsPresenter.h; sourceTree = "<group>"; };
+		4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsPresenter.m; sourceTree = "<group>"; };
+		4CA3C86218E77C840082556D /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		4CA3C86318E77C840082556D /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		4CA3C86B18E78A780082556D /* CellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPresenter.h; sourceTree = "<group>"; };
+		4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CellPresenterDataSourceSpec.mm; sourceTree = "<group>"; };
 		4CA4824718E50EE900E524B6 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA4824D18E50EE900E524B6 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA4825318E50EE900E524B6 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		4CA4827518E5106800E524B6 /* Deferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Deferred.xcodeproj; path = deferred/Deferred.xcodeproj; sourceTree = "<group>"; };
+		4CAA2CEE18E79C9B00488E9B /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		4CAA2CEF18E79C9B00488E9B /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		4CAA2CF218E79CEA00488E9B /* ArtistCellPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistCellPresenter.h; sourceTree = "<group>"; };
+		4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistCellPresenter.m; sourceTree = "<group>"; };
+		AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistCellPresenterSpec.mm; sourceTree = "<group>"; };
+		AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistsPresenterSpec.mm; sourceTree = "<group>"; };
+		AE0D92FF18EF6CB30043F06A /* FakeCellPresenterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeCellPresenterDataSource.h; sourceTree = "<group>"; };
+		AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeCellPresenterDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,7 +315,10 @@
 				4C1650DC18E50CA1000336FD /* AppDelegate.m */,
 				4C8145B618E5169700FA565A /* Controllers */,
 				4C1650DE18E50CA1000336FD /* Images.xcassets */,
+				4CAA2CED18E79C8A00488E9B /* Models */,
 				4C8145B918E5169700FA565A /* Modules */,
+				4CA3C86118E77C260082556D /* Network */,
+				4CA3C84918E77B270082556D /* Presenters */,
 				4C1650D318E50CA1000336FD /* Supporting Files */,
 			);
 			path = BestPractices;
@@ -327,6 +362,14 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		4C8145C718E5194900FA565A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C8145C818E5194900FA565A /* ViewControllerSpec.mm */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4C833A8918E50DBE0011D3C3 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,11 +397,47 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4CA3C84918E77B270082556D /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				4CAA2CF218E79CEA00488E9B /* ArtistCellPresenter.h */,
+				4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */,
+				4CA3C85D18E77BB70082556D /* ArtistsPresenter.h */,
+				4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */,
+				4CA3C86B18E78A780082556D /* CellPresenter.h */,
+				4CA3C85918E77B3B0082556D /* CellPresenterDataSource.h */,
+				4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		4CA3C86118E77C260082556D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3C86218E77C840082556D /* APIClient.h */,
+				4CA3C86318E77C840082556D /* APIClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4CA3C87B18E78AE20082556D /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */,
+				AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */,
+				4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
 		4CA4824B18E50EE900E524B6 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
 				4C8145A718E5133900FA565A /* AppDelegateSpec.mm */,
+				4C8145C718E5194900FA565A /* Controllers */,
+				AE0D92FE18EF6C9E0043F06A /* Fakes */,
 				4C8145C418E5181200FA565A /* Modules */,
+				4CA3C87B18E78AE20082556D /* Presenters */,
 				4C8145A818E5133900FA565A /* SpecHelper+BestPractices.h */,
 				4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */,
 				4CA4824C18E50EE900E524B6 /* Supporting Files */,
@@ -394,6 +473,24 @@
 				4CA4828118E5106800E524B6 /* Specs */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAA2CED18E79C8A00488E9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CAA2CEE18E79C9B00488E9B /* Artist.h */,
+				4CAA2CEF18E79C9B00488E9B /* Artist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE0D92FE18EF6C9E0043F06A /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D92FF18EF6CB30043F06A /* FakeCellPresenterDataSource.h */,
+				AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */,
+			);
+			path = Fakes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -619,10 +716,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */,
+				4CAA2CF418E79CEA00488E9B /* ArtistCellPresenter.m in Sources */,
+				4CAA2CF018E79C9B00488E9B /* Artist.m in Sources */,
 				4C8145BC18E5169700FA565A /* ViewController.m in Sources */,
 				4C8145BE18E5169700FA565A /* UIModule.m in Sources */,
 				4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */,
+				4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */,
 				4C1650D918E50CA1000336FD /* main.m in Sources */,
+				4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
+				4CA3C86418E77C840082556D /* APIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,14 +732,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA3C88318E78E070082556D /* CellPresenterDataSourceSpec.mm in Sources */,
 				4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */,
 				4CA4825C18E50F0E00E524B6 /* AppDelegate.m in Sources */,
 				4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */,
 				4CA4825218E50EE900E524B6 /* main.m in Sources */,
 				4C8145BF18E5169700FA565A /* UIModule.m in Sources */,
+				4CAA2CF518E79CEA00488E9B /* ArtistCellPresenter.m in Sources */,
+				AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */,
+				AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */,
 				4C8145AC18E5133900FA565A /* SpecHelper+BestPractices.m in Sources */,
 				4C8145C618E5182600FA565A /* UIModuleSpec.mm in Sources */,
+				4CAA2CF118E79C9B00488E9B /* Artist.m in Sources */,
+				4CA3C86518E77C840082556D /* APIClient.m in Sources */,
+				4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */,
+				4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
+				4C8145C918E5194900FA565A /* ViewControllerSpec.mm in Sources */,
 				4C8145BD18E5169700FA565A /* ViewController.m in Sources */,
+				AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

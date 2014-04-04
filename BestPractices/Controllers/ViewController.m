@@ -1,5 +1,65 @@
 #import "ViewController.h"
+#import "Blindside.h"
+#import "APIClient.h"
+#import "ArtistsPresenter.h"
+#import "KSPromise.h"
+
+
+@interface ViewController ()
+
+@property (nonatomic) ArtistsPresenter *artistsPresenter;
+@property (nonatomic) UITableView *tableView;
+@property (nonatomic) APIClient *apiClient;
+
+@end
+
 
 @implementation ViewController
+
++ (BSInitializer *)bsInitializer {
+    return [BSInitializer initializerWithClass:self
+                                      selector:@selector(initWithArtistsPresenter:
+                                                         apiClient:)
+                                  argumentKeys:
+            [ArtistsPresenter class],
+            [APIClient class],
+            nil];
+}
+
+- (id)initWithArtistsPresenter:(ArtistsPresenter *)artistsPresenter
+                     apiClient:(APIClient *)apiClient {
+    self = [super init];
+    if (self) {
+        self.artistsPresenter = artistsPresenter;
+        self.apiClient = apiClient;
+    }
+    return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.title = @"Artists";
+
+    self.tableView = [[UITableView alloc] init];
+    [self.view addSubview:self.tableView];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    self.tableView.frame = self.view.bounds;
+
+    KSPromise *promise = [self.apiClient getArtists];
+
+    __weak typeof(self) weakSelf = self;
+    [promise then:^id(NSArray *artists) {
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+
+        [strongSelf.artistsPresenter presentArtists:artists inTableView:strongSelf.tableView];
+
+        return nil;
+    } error:nil];
+}
 
 @end

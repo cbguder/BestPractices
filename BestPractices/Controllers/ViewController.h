@@ -2,4 +2,6 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, readonly) UITableView *tableView;
+
 @end
