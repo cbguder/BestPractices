@@ -1,9 +1,9 @@
 [submodule "Externals/cedar"]
 	path = Externals/cedar
-	url = git@github.com:pivotal/cedar.git
+	url = https://github.com/pivotal/cedar.git
 [submodule "Externals/blindside"]
 	path = Externals/blindside
-	url = git@github.com:jbsf/blindside.git
+	url = https://github.com/jbsf/blindside.git
 [submodule "Externals/deferred"]
 	path = Externals/deferred
-	url = git@github.com:kseebaldt/deferred.git
+	url = https://github.com/kseebaldt/deferred.git
