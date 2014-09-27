@@ -10,4 +10,4 @@ ios_spec_targets:
     target: Specs
     build_configuration: Debug
     build_sdk: iphonesimulator7.0
-    runtime_sdk: 7.0
+    runtime_sdk: 7.1
