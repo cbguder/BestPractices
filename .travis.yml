@@ -3,5 +3,3 @@ install:
   - brew install ios-sim
   - bundle install
 script: rake
-env:
-  - RUNTIME_SDK=7.1
