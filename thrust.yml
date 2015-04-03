@@ -1,13 +1,13 @@
-thrust_version: 0.3
+thrust_version: 0.7
 project_name: BestPractices
 app_name: BestPractices
-ios_sim_binary: ios-sim
 
 deployment_targets: []
 
-ios_spec_targets:
+spec_targets:
   specs:
-    target: Specs
+    scheme: Specs
     build_configuration: Debug
-    build_sdk: iphonesimulator7.0
-    runtime_sdk: 7.1
+
+spec_directories:
+  - Specs
