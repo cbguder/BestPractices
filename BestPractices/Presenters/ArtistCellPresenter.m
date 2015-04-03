@@ -1,6 +1,7 @@
 #import "ArtistCellPresenter.h"
 #import "Artist.h"
 
+
 @implementation ArtistCellPresenter
 
 + (void)registerInTableView:(UITableView *)tableView {

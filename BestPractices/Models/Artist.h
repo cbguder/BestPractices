@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 
+
 @interface Artist : NSObject
 
 @property (nonatomic, copy, readonly) NSString *artistId;

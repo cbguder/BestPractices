@@ -3,8 +3,10 @@
 #import "ArtistCellPresenter.h"
 #import "Artist.h"
 
+
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
+
 
 SPEC_BEGIN(ArtistCellPresenterSpec)
 
