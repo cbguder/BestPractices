@@ -255,7 +255,7 @@
 		4CA3C86318E77C840082556D /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
 		4CA3C86B18E78A780082556D /* CellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPresenter.h; sourceTree = "<group>"; };
 		4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CellPresenterDataSourceSpec.mm; sourceTree = "<group>"; };
-		4CA4824718E50EE900E524B6 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPracticesSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA4824D18E50EE900E524B6 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
@@ -314,7 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				4C1650C918E50CA1000336FD /* BestPractices.app */,
-				4CA4824718E50EE900E524B6 /* Specs.app */,
+				4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -539,9 +539,9 @@
 			productReference = 4C1650C918E50CA1000336FD /* BestPractices.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CA4824618E50EE900E524B6 /* Specs */ = {
+		4CA4824618E50EE900E524B6 /* BestPracticesSpecs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CA4825918E50EEA00E524B6 /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildConfigurationList = 4CA4825918E50EEA00E524B6 /* Build configuration list for PBXNativeTarget "BestPracticesSpecs" */;
 			buildPhases = (
 				4CA4824318E50EE900E524B6 /* Sources */,
 				4CA4824418E50EE900E524B6 /* Frameworks */,
@@ -554,9 +554,9 @@
 				4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */,
 				4CA4828618E5108200E524B6 /* PBXTargetDependency */,
 			);
-			name = Specs;
+			name = BestPracticesSpecs;
 			productName = Specs;
-			productReference = 4CA4824718E50EE900E524B6 /* Specs.app */;
+			productReference = 4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -595,7 +595,7 @@
 			projectRoot = "";
 			targets = (
 				4C1650C818E50CA1000336FD /* BestPractices */,
-				4CA4824618E50EE900E524B6 /* Specs */,
+				4CA4824618E50EE900E524B6 /* BestPracticesSpecs */,
 			);
 		};
 /* End PBXProject section */
@@ -977,7 +977,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CA4825918E50EEA00E524B6 /* Build configuration list for PBXNativeTarget "Specs" */ = {
+		4CA4825918E50EEA00E524B6 /* Build configuration list for PBXNativeTarget "BestPracticesSpecs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CA4825A18E50EEA00E524B6 /* Debug */,

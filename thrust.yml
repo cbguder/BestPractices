@@ -6,7 +6,7 @@ deployment_targets: []
 
 spec_targets:
   specs:
-    scheme: Specs
+    scheme: BestPracticesSpecs
     build_configuration: Debug
     device_name: iPhone 6
 
