@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0B92FF1ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
+		4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
 		4C1650CD18E50CA1000336FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
 		4C1650CF18E50CA1000336FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CE18E50CA1000336FD /* CoreGraphics.framework */; };
 		4C1650D118E50CA1000336FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650D018E50CA1000336FD /* UIKit.framework */; };
@@ -222,6 +224,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		4C1650C918E50CA1000336FD /* BestPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1650CC18E50CA1000336FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C1650CE18E50CA1000336FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -334,6 +337,7 @@
 				4C1650DC18E50CA1000336FD /* AppDelegate.m */,
 				4C8145B618E5169700FA565A /* Controllers */,
 				4C1650DE18E50CA1000336FD /* Images.xcassets */,
+				4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */,
 				4CAA2CED18E79C8A00488E9B /* Models */,
 				4C8145B918E5169700FA565A /* Modules */,
 				4CA3C86118E77C260082556D /* Network */,
@@ -738,6 +742,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1650DF18E50CA1000336FD /* Images.xcassets in Resources */,
+				4C0B92FF1ACF5D7100DE75AC /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +751,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA4825D18E50F1100E524B6 /* Images.xcassets in Resources */,
+				4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -913,7 +919,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "BestPractices/BestPractices-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -924,7 +929,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "BestPractices/BestPractices-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -935,7 +939,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Specs/Specs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
@@ -947,7 +950,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Specs/Specs-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
