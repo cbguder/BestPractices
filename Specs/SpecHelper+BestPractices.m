@@ -2,6 +2,7 @@
 #import "Blindside.h"
 #import "UIModule.h"
 
+
 @implementation SpecHelper (BestPractices)
 
 + (id<BSBinder,BSInjector>)injector {

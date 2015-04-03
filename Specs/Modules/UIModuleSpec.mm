@@ -1,3 +1,5 @@
+#import "Cedar.h"
+#import "SpecHelper+BestPractices.h"
 #import "UIModule.h"
 #import "InjectorKeys.h"
 #import "ViewController.h"

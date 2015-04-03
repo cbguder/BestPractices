@@ -1,3 +1,5 @@
+#import "Cedar.h"
+#import "SpecHelper+BestPractices.h"
 #import "ArtistCellPresenter.h"
 #import "Artist.h"
 

@@ -51,6 +51,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4C0B92EA1ACF598000DE75AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE248F9819DCD52500092C14;
+			remoteInfo = "Cedar OS X Host App";
+		};
+		4C0B92EC1ACF598000DE75AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE248FAA19DCD52500092C14;
+			remoteInfo = "Cedar OS X Host AppTests";
+		};
+		4C0B92EE1ACF598000DE75AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEB8818719DCD62D00F081BA;
+			remoteInfo = "Cedar OS X Failing Test Bundle";
+		};
+		4C0B92F31ACF598000DE75AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE68319B1A365DC600B1B815;
+			remoteInfo = DeferredSpecs;
+		};
+		4C0B92F51ACF598000DE75AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE68316C1A365CF600B1B815;
+			remoteInfo = "Deferred-OSXSpecs";
+		};
 		4C833A9818E50DD30011D3C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
@@ -114,13 +149,6 @@
 			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
 			remoteInfo = XCUnitAppTests;
 		};
-		4C833AAA18E50DD30011D3C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96158A86144A915E005895CE;
-			remoteInfo = OCUnitAppLogicTests;
-		};
 		4CA4825E18E50FAE00E524B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
@@ -177,13 +205,6 @@
 			remoteGlobalIDString = E18A7B3015674EC20083D745;
 			remoteInfo = "Deferred-OSX";
 		};
-		4CA4828018E5106800E524B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E18A7B4415674ED10083D745;
-			remoteInfo = Specs;
-		};
 		4CA4828218E5107700E524B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
@@ -207,7 +228,6 @@
 		4C1650D018E50CA1000336FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C1650D418E50CA1000336FD /* BestPractices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BestPractices-Info.plist"; sourceTree = "<group>"; };
 		4C1650D818E50CA1000336FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C1650DA18E50CA1000336FD /* BestPractices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BestPractices-Prefix.pch"; sourceTree = "<group>"; };
 		4C1650DB18E50CA1000336FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C1650DC18E50CA1000336FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C1650DE18E50CA1000336FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -235,7 +255,6 @@
 		4CA4824718E50EE900E524B6 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA4824D18E50EE900E524B6 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CA4825318E50EE900E524B6 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		4CA4827518E5106800E524B6 /* Deferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Deferred.xcodeproj; path = deferred/Deferred.xcodeproj; sourceTree = "<group>"; };
 		4CAA2CEE18E79C9B00488E9B /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
@@ -329,7 +348,6 @@
 			children = (
 				4C1650D418E50CA1000336FD /* BestPractices-Info.plist */,
 				4C1650D818E50CA1000336FD /* main.m */,
-				4C1650DA18E50CA1000336FD /* BestPractices-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -384,15 +402,17 @@
 			isa = PBXGroup;
 			children = (
 				4C833A9918E50DD30011D3C3 /* Cedar.framework */,
-				4C833A9B18E50DD30011D3C3 /* Specs */,
-				4C833A9D18E50DD30011D3C3 /* FocusedSpecs */,
+				4C833A9B18E50DD30011D3C3 /* Cedar OS X Specs */,
+				4C833A9D18E50DD30011D3C3 /* Cedar OS X FocusedSpecs */,
 				4C833A9F18E50DD30011D3C3 /* libCedar-StaticLib.a */,
-				4C833AA118E50DD30011D3C3 /* iOSSpecs.app */,
-				4C833AA318E50DD30011D3C3 /* iOSFrameworkSpecs.app */,
-				4C833AA518E50DD30011D3C3 /* OCUnitApp.app */,
-				4C833AA718E50DD30011D3C3 /* OCUnitAppTests.octest */,
+				4C833AA118E50DD30011D3C3 /* Cedar iOS Specs.app */,
+				4C833AA318E50DD30011D3C3 /* Cedar iOS FrameworkSpecs.app */,
+				4C833AA518E50DD30011D3C3 /* Cedar iOS Host App.app */,
+				4C833AA718E50DD30011D3C3 /* Cedar iOS SenTestingKit Tests.octest */,
 				4C833AA918E50DD30011D3C3 /* XCUnitAppTests.xctest */,
-				4C833AAB18E50DD30011D3C3 /* OCUnitAppLogicTests.octest */,
+				4C0B92EB1ACF598000DE75AC /* Cedar OS X Host App.app */,
+				4C0B92ED1ACF598000DE75AC /* Cedar OS X Host AppTests.xctest */,
+				4C0B92EF1ACF598000DE75AC /* Cedar OS X Failing Test Bundle.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,7 +470,6 @@
 			children = (
 				4CA4824D18E50EE900E524B6 /* Specs-Info.plist */,
 				4CA4825118E50EE900E524B6 /* main.m */,
-				4CA4825318E50EE900E524B6 /* Specs-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -469,8 +488,9 @@
 			isa = PBXGroup;
 			children = (
 				4CA4827D18E5106800E524B6 /* libDeferred.a */,
+				4C0B92F41ACF598000DE75AC /* DeferredSpecs.xctest */,
 				4CA4827F18E5106800E524B6 /* libDeferred-OSX.a */,
-				4CA4828118E5106800E524B6 /* Specs */,
+				4C0B92F61ACF598000DE75AC /* Deferred-OSXSpecs.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -577,6 +597,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4C0B92EB1ACF598000DE75AC /* Cedar OS X Host App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar OS X Host App.app";
+			remoteRef = 4C0B92EA1ACF598000DE75AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C0B92ED1ACF598000DE75AC /* Cedar OS X Host AppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar OS X Host AppTests.xctest";
+			remoteRef = 4C0B92EC1ACF598000DE75AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C0B92EF1ACF598000DE75AC /* Cedar OS X Failing Test Bundle.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar OS X Failing Test Bundle.octest";
+			remoteRef = 4C0B92EE1ACF598000DE75AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C0B92F41ACF598000DE75AC /* DeferredSpecs.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DeferredSpecs.xctest;
+			remoteRef = 4C0B92F31ACF598000DE75AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C0B92F61ACF598000DE75AC /* Deferred-OSXSpecs.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Deferred-OSXSpecs.xctest";
+			remoteRef = 4C0B92F51ACF598000DE75AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4C833A9918E50DD30011D3C3 /* Cedar.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -584,17 +639,17 @@
 			remoteRef = 4C833A9818E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833A9B18E50DD30011D3C3 /* Specs */ = {
+		4C833A9B18E50DD30011D3C3 /* Cedar OS X Specs */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = Specs;
+			path = "Cedar OS X Specs";
 			remoteRef = 4C833A9A18E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833A9D18E50DD30011D3C3 /* FocusedSpecs */ = {
+		4C833A9D18E50DD30011D3C3 /* Cedar OS X FocusedSpecs */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = FocusedSpecs;
+			path = "Cedar OS X FocusedSpecs";
 			remoteRef = 4C833A9C18E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -605,31 +660,31 @@
 			remoteRef = 4C833A9E18E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833AA118E50DD30011D3C3 /* iOSSpecs.app */ = {
+		4C833AA118E50DD30011D3C3 /* Cedar iOS Specs.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = iOSSpecs.app;
+			path = "Cedar iOS Specs.app";
 			remoteRef = 4C833AA018E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833AA318E50DD30011D3C3 /* iOSFrameworkSpecs.app */ = {
+		4C833AA318E50DD30011D3C3 /* Cedar iOS FrameworkSpecs.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = iOSFrameworkSpecs.app;
+			path = "Cedar iOS FrameworkSpecs.app";
 			remoteRef = 4C833AA218E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833AA518E50DD30011D3C3 /* OCUnitApp.app */ = {
+		4C833AA518E50DD30011D3C3 /* Cedar iOS Host App.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = OCUnitApp.app;
+			path = "Cedar iOS Host App.app";
 			remoteRef = 4C833AA418E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833AA718E50DD30011D3C3 /* OCUnitAppTests.octest */ = {
+		4C833AA718E50DD30011D3C3 /* Cedar iOS SenTestingKit Tests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = OCUnitAppTests.octest;
+			path = "Cedar iOS SenTestingKit Tests.octest";
 			remoteRef = 4C833AA618E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -638,13 +693,6 @@
 			fileType = wrapper.cfbundle;
 			path = XCUnitAppTests.xctest;
 			remoteRef = 4C833AA818E50DD30011D3C3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C833AAB18E50DD30011D3C3 /* OCUnitAppLogicTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCUnitAppLogicTests.octest;
-			remoteRef = 4C833AAA18E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4CA4826A18E50FF800E524B6 /* Blindside.framework */ = {
@@ -680,13 +728,6 @@
 			fileType = archive.ar;
 			path = "libDeferred-OSX.a";
 			remoteRef = 4CA4827E18E5106800E524B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CA4828118E5106800E524B6 /* Specs */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = Specs;
-			remoteRef = 4CA4828018E5106800E524B6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -873,8 +914,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BestPractices/BestPractices-Prefix.pch";
 				INFOPLIST_FILE = "BestPractices/BestPractices-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -886,8 +925,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BestPractices/BestPractices-Prefix.pch";
 				INFOPLIST_FILE = "BestPractices/BestPractices-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -899,8 +936,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
 				INFOPLIST_FILE = "Specs/Specs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
@@ -913,8 +948,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
 				INFOPLIST_FILE = "Specs/Specs-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";

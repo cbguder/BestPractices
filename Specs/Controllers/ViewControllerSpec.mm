@@ -1,3 +1,5 @@
+#import "Cedar.h"
+#import "SpecHelper+BestPractices.h"
 #import "ViewController.h"
 #import "Blindside.h"
 #import "ArtistsPresenter.h"
