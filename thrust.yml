@@ -8,6 +8,7 @@ spec_targets:
   specs:
     scheme: Specs
     build_configuration: Debug
+    device_name: iPhone 6
 
 spec_directories:
   - Specs
