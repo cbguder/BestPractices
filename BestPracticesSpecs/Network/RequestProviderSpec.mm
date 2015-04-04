@@ -23,7 +23,7 @@ describe(@"RequestProvider", ^{
     it(@"generates a request to get all artists", ^{
         NSURLRequest *request = [subject requestToGetArtists];
 
-        request.URL should equal([NSURL URLWithString:@"https://raw.githubusercontent.com/cbguder/BestPractices/master/Specs/Fixtures/artists.json"]);
+        request.URL should equal([NSURL URLWithString:@"https://raw.githubusercontent.com/cbguder/BestPractices/master/BestPracticesSpecs/Fixtures/artists.json"]);
     });
 });
 

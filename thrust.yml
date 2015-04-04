@@ -12,4 +12,4 @@ spec_targets:
     os_version: 8.1
 
 spec_directories:
-  - Specs
+  - BestPracticesSpecs

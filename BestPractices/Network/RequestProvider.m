@@ -4,7 +4,7 @@
 @implementation RequestProvider
 
 - (NSURLRequest *)requestToGetArtists {
-    NSURL *URL = [NSURL URLWithString:@"https://raw.githubusercontent.com/cbguder/BestPractices/master/Specs/Fixtures/artists.json"];
+    NSURL *URL = [NSURL URLWithString:@"https://raw.githubusercontent.com/cbguder/BestPractices/master/BestPracticesSpecs/Fixtures/artists.json"];
     return [NSURLRequest requestWithURL:URL];
 }
 

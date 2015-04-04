@@ -282,7 +282,7 @@
 		4CA3C86B18E78A780082556D /* CellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPresenter.h; sourceTree = "<group>"; };
 		4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CellPresenterDataSourceSpec.mm; sourceTree = "<group>"; };
 		4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPracticesSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CA4824D18E50EE900E524B6 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		4CA4824D18E50EE900E524B6 /* BestPracticesSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BestPracticesSpecs-Info.plist"; sourceTree = "<group>"; };
 		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		4CA4827518E5106800E524B6 /* Deferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Deferred.xcodeproj; path = deferred/Deferred.xcodeproj; sourceTree = "<group>"; };
@@ -351,8 +351,8 @@
 			isa = PBXGroup;
 			children = (
 				4C1650D218E50CA1000336FD /* BestPractices */,
+				4CA4824B18E50EE900E524B6 /* BestPracticesSpecs */,
 				4C833A8918E50DBE0011D3C3 /* Externals */,
-				4CA4824B18E50EE900E524B6 /* Specs */,
 				4C1650CB18E50CA1000336FD /* Frameworks */,
 				4C1650CA18E50CA1000336FD /* Products */,
 			);
@@ -506,7 +506,7 @@
 			path = Presenters;
 			sourceTree = "<group>";
 		};
-		4CA4824B18E50EE900E524B6 /* Specs */ = {
+		4CA4824B18E50EE900E524B6 /* BestPracticesSpecs */ = {
 			isa = PBXGroup;
 			children = (
 				4C8145A718E5133900FA565A /* AppDelegateSpec.mm */,
@@ -517,13 +517,13 @@
 				2225F89358E509AF97A1D4CC /* Network */,
 				2225F6051E7FBA8A2520675C /* Fixtures */,
 			);
-			path = Specs;
+			path = BestPracticesSpecs;
 			sourceTree = "<group>";
 		};
 		4CA4824C18E50EE900E524B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CA4824D18E50EE900E524B6 /* Specs-Info.plist */,
+				4CA4824D18E50EE900E524B6 /* BestPracticesSpecs-Info.plist */,
 				4CA4825118E50EE900E524B6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -1003,7 +1003,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				INFOPLIST_FILE = "BestPracticesSpecs/BestPracticesSpecs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
 				WRAPPER_EXTENSION = app;
@@ -1014,7 +1014,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				INFOPLIST_FILE = "BestPracticesSpecs/BestPracticesSpecs-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
