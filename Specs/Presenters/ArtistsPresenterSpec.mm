@@ -1,6 +1,7 @@
 #import "Cedar.h"
-#import "SpecHelper+BestPractices.h"
 #import "ArtistsPresenter.h"
+#import "InjectorProvider.h"
+#import "Blindside.h"
 #import "FakeCellPresenterDataSource.h"
 #import "Artist.h"
 #import "ArtistCellPresenter.h"
@@ -14,12 +15,12 @@ SPEC_BEGIN(ArtistsPresenterSpec)
 
 describe(@"ArtistsPresenter", ^{
     __block ArtistsPresenter *subject;
-    __block id<BSBinder,BSInjector> injector;
+    __block id<BSBinder, BSInjector> injector;
     __block FakeCellPresenterDataSource *cellPresenterDataSource;
     __block UITableView *tableView;
 
     beforeEach(^{
-        injector = [SpecHelper injector];
+        injector = (id)[InjectorProvider injector];
 
         cellPresenterDataSource = [[FakeCellPresenterDataSource alloc] init];
         [injector bind:[CellPresenterDataSource class] toInstance:cellPresenterDataSource];

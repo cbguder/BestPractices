@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
+#import "InjectorProvider.h"
 #import "Blindside.h"
-#import "UIModule.h"
 #import "InjectorKeys.h"
 
 
@@ -13,11 +13,10 @@
 
 @implementation AppDelegate
 
-- (id)init {
+- (instancetype)init {
     self = [super init];
     if (self) {
-        UIModule *uiModule = [[UIModule alloc] init];
-        self.injector = [Blindside injectorWithModule:uiModule];
+        self.injector = [InjectorProvider injector];
     }
     return self;
 }

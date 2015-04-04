@@ -4,7 +4,7 @@
 @class KSPromise;
 
 
-@interface APIClient : NSObject
+@interface ArtistsService : NSObject
 
 - (KSPromise *)getArtists;
 

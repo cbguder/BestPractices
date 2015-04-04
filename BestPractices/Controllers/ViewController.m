@@ -1,6 +1,6 @@
 #import "ViewController.h"
 #import "Blindside.h"
-#import "APIClient.h"
+#import "ArtistsService.h"
 #import "ArtistsPresenter.h"
 #import "KSPromise.h"
 
@@ -9,7 +9,7 @@
 
 @property (nonatomic) ArtistsPresenter *artistsPresenter;
 @property (nonatomic) UITableView *tableView;
-@property (nonatomic) APIClient *apiClient;
+@property (nonatomic) ArtistsService *apiClient;
 
 @end
 
@@ -22,12 +22,12 @@
                                                          apiClient:)
                                   argumentKeys:
             [ArtistsPresenter class],
-            [APIClient class],
+            [ArtistsService class],
             nil];
 }
 
 - (id)initWithArtistsPresenter:(ArtistsPresenter *)artistsPresenter
-                     apiClient:(APIClient *)apiClient {
+                     apiClient:(ArtistsService *)apiClient {
     self = [super init];
     if (self) {
         self.artistsPresenter = artistsPresenter;

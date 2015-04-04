@@ -1,9 +1,9 @@
 #import "Cedar.h"
-#import "SpecHelper+BestPractices.h"
 #import "ViewController.h"
+#import "InjectorProvider.h"
 #import "Blindside.h"
 #import "ArtistsPresenter.h"
-#import "APIClient.h"
+#import "ArtistsService.h"
 #import "KSDeferred.h"
 
 
@@ -15,9 +15,9 @@ SPEC_BEGIN(ViewControllerSpec)
 
 describe(@"ViewController", ^{
     __block ViewController *subject;
-    __block id<BSBinder,BSInjector> injector;
+    __block id<BSBinder, BSInjector> injector;
     __block ArtistsPresenter *artistsPresenter;
-    __block APIClient *apiClient;
+    __block ArtistsService *apiClient;
 
     __block void (^makeViewAppear)() = ^{
         [subject viewWillAppear:NO];
@@ -25,13 +25,13 @@ describe(@"ViewController", ^{
     };
 
     beforeEach(^{
-        injector = [SpecHelper injector];
+        injector = (id)[InjectorProvider injector];
 
         artistsPresenter = nice_fake_for([ArtistsPresenter class]);
         [injector bind:[ArtistsPresenter class] toInstance:artistsPresenter];
 
-        apiClient = nice_fake_for([APIClient class]);
-        [injector bind:[APIClient class] toInstance:apiClient];
+        apiClient = nice_fake_for([ArtistsService class]);
+        [injector bind:[ArtistsService class] toInstance:apiClient];
 
         subject = [injector getInstance:[ViewController class]];
         subject.view should_not be_nil;

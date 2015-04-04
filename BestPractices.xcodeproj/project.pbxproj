@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2225F21C2FA322E2A5BA27B2 /* FoundationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F7D69CE3204D81E2C21A /* FoundationModule.m */; };
+		2225F3A2DE8E773C632E1932 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225FDE9BB696E631352A547 /* NetworkModule.m */; };
+		2225F472519CEC81D230222B /* RequestProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */; };
+		2225F526C12E802C9A23F066 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F31DE7A12821D08FB6D8 /* HTTPClient.m */; };
+		2225F7DA142A2DA92BDB35F5 /* JSONClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F8BA27105B8EC773EE8D /* JSONClient.m */; };
+		2225F8685C87791451F87892 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F31DE7A12821D08FB6D8 /* HTTPClient.m */; };
+		2225FB31721D9F0035209F18 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2225F5A602D89DA85B78DBD2 /* artists.json */; };
+		2225FB3AEBA39757263BC8A9 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225FDE9BB696E631352A547 /* NetworkModule.m */; };
+		2225FC0F494B4C351C0109D2 /* JSONClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */; };
+		2225FD911CE7FDBA49E61750 /* FoundationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F7D69CE3204D81E2C21A /* FoundationModule.m */; };
+		2225FDE8FD3E7AFB0D28245B /* JSONClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F8BA27105B8EC773EE8D /* JSONClient.m */; };
+		2225FE2769FD86FCA0B0B5C4 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F92CBED5E79032067389 /* InjectorProvider.m */; };
+		2225FE53D11DF6DDDD676231 /* HTTPClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */; };
+		2225FE5BED01473F71B63378 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F92CBED5E79032067389 /* InjectorProvider.m */; };
 		4C0B92FF1ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
 		4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
 		4C1650CD18E50CA1000336FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
@@ -16,21 +30,19 @@
 		4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650DC18E50CA1000336FD /* AppDelegate.m */; };
 		4C1650DF18E50CA1000336FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1650DE18E50CA1000336FD /* Images.xcassets */; };
 		4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A718E5133900FA565A /* AppDelegateSpec.mm */; };
-		4C8145AC18E5133900FA565A /* SpecHelper+BestPractices.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */; };
 		4C8145BC18E5169700FA565A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ViewController.m */; };
 		4C8145BD18E5169700FA565A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ViewController.m */; };
 		4C8145BE18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
 		4C8145BF18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
 		4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
 		4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
-		4C8145C618E5182600FA565A /* UIModuleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C518E5182600FA565A /* UIModuleSpec.mm */; };
 		4C8145C918E5194900FA565A /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C818E5194900FA565A /* ViewControllerSpec.mm */; };
 		4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
 		4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
 		4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
 		4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
-		4CA3C86418E77C840082556D /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* APIClient.m */; };
-		4CA3C86518E77C840082556D /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* APIClient.m */; };
+		4CA3C86418E77C840082556D /* ArtistsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* ArtistsService.m */; };
+		4CA3C86518E77C840082556D /* ArtistsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* ArtistsService.m */; };
 		4CA3C88318E78E070082556D /* CellPresenterDataSourceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */; };
 		4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650D018E50CA1000336FD /* UIKit.framework */; };
 		4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
@@ -47,6 +59,9 @@
 		4CAA2CF118E79C9B00488E9B /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CEF18E79C9B00488E9B /* Artist.m */; };
 		4CAA2CF418E79CEA00488E9B /* ArtistCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */; };
 		4CAA2CF518E79CEA00488E9B /* ArtistCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */; };
+		4CAB2EA71ACF600B002AB81E /* RequestProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB2EA61ACF600B002AB81E /* RequestProvider.m */; };
+		4CAB2EA81ACF600B002AB81E /* RequestProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB2EA61ACF600B002AB81E /* RequestProvider.m */; };
+		4CBB0C401AD0715F00F03491 /* ArtistsServiceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB0C3F1AD0715F00F03491 /* ArtistsServiceSpec.mm */; };
 		AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */; };
 		AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */; };
 		AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */; };
@@ -224,6 +239,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2225F038A06F1D4D1EB0B2D8 /* JSONClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONClient.h; sourceTree = "<group>"; };
+		2225F2505B1A22EAFBA465A9 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorProvider.h; sourceTree = "<group>"; };
+		2225F31DE7A12821D08FB6D8 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		2225F5A602D89DA85B78DBD2 /* artists.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = artists.json; sourceTree = "<group>"; };
+		2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HTTPClientSpec.mm; sourceTree = "<group>"; };
+		2225F7D69CE3204D81E2C21A /* FoundationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationModule.m; sourceTree = "<group>"; };
+		2225F8BA27105B8EC773EE8D /* JSONClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONClient.m; sourceTree = "<group>"; };
+		2225F92CBED5E79032067389 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorProvider.m; sourceTree = "<group>"; };
+		2225F9FEDEF77FFBD57BF6FA /* NetworkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkModule.h; sourceTree = "<group>"; };
+		2225FB862053BDF37895A4C6 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RequestProviderSpec.mm; sourceTree = "<group>"; };
+		2225FDE9BB696E631352A547 /* NetworkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkModule.m; sourceTree = "<group>"; };
+		2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSONClientSpec.mm; sourceTree = "<group>"; };
+		2225FFF8E0C1013B1F990D53 /* FoundationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationModule.h; sourceTree = "<group>"; };
 		4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		4C1650C918E50CA1000336FD /* BestPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1650CC18E50CA1000336FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -236,23 +265,20 @@
 		4C1650DE18E50CA1000336FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C1650E518E50CA1000336FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4C8145A718E5133900FA565A /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
-		4C8145A818E5133900FA565A /* SpecHelper+BestPractices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpecHelper+BestPractices.h"; sourceTree = "<group>"; };
-		4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SpecHelper+BestPractices.m"; sourceTree = "<group>"; };
 		4C8145B718E5169700FA565A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C8145B818E5169700FA565A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C8145BA18E5169700FA565A /* UIModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIModule.h; sourceTree = "<group>"; };
 		4C8145BB18E5169700FA565A /* UIModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIModule.m; sourceTree = "<group>"; };
 		4C8145C018E5173700FA565A /* InjectorKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorKeys.h; sourceTree = "<group>"; };
 		4C8145C118E5173700FA565A /* InjectorKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorKeys.m; sourceTree = "<group>"; };
-		4C8145C518E5182600FA565A /* UIModuleSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIModuleSpec.mm; sourceTree = "<group>"; };
 		4C8145C818E5194900FA565A /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
 		4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		4CA3C85918E77B3B0082556D /* CellPresenterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPresenterDataSource.h; sourceTree = "<group>"; };
 		4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPresenterDataSource.m; sourceTree = "<group>"; };
 		4CA3C85D18E77BB70082556D /* ArtistsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsPresenter.h; sourceTree = "<group>"; };
 		4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsPresenter.m; sourceTree = "<group>"; };
-		4CA3C86218E77C840082556D /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
-		4CA3C86318E77C840082556D /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		4CA3C86218E77C840082556D /* ArtistsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsService.h; sourceTree = "<group>"; };
+		4CA3C86318E77C840082556D /* ArtistsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsService.m; sourceTree = "<group>"; };
 		4CA3C86B18E78A780082556D /* CellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPresenter.h; sourceTree = "<group>"; };
 		4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CellPresenterDataSourceSpec.mm; sourceTree = "<group>"; };
 		4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPracticesSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,6 +290,9 @@
 		4CAA2CEF18E79C9B00488E9B /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
 		4CAA2CF218E79CEA00488E9B /* ArtistCellPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistCellPresenter.h; sourceTree = "<group>"; };
 		4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistCellPresenter.m; sourceTree = "<group>"; };
+		4CAB2EA51ACF600B002AB81E /* RequestProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestProvider.h; sourceTree = "<group>"; };
+		4CAB2EA61ACF600B002AB81E /* RequestProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestProvider.m; sourceTree = "<group>"; };
+		4CBB0C3F1AD0715F00F03491 /* ArtistsServiceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistsServiceSpec.mm; sourceTree = "<group>"; };
 		AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistCellPresenterSpec.mm; sourceTree = "<group>"; };
 		AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistsPresenterSpec.mm; sourceTree = "<group>"; };
 		AE0D92FF18EF6CB30043F06A /* FakeCellPresenterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeCellPresenterDataSource.h; sourceTree = "<group>"; };
@@ -299,6 +328,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2225F6051E7FBA8A2520675C /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				2225F5A602D89DA85B78DBD2 /* artists.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		2225F89358E509AF97A1D4CC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB0C3F1AD0715F00F03491 /* ArtistsServiceSpec.mm */,
+				2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */,
+				2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */,
+				2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		4C1650C018E50CA1000336FD = {
 			isa = PBXGroup;
 			children = (
@@ -372,14 +420,12 @@
 				4C8145C118E5173700FA565A /* InjectorKeys.m */,
 				4C8145BA18E5169700FA565A /* UIModule.h */,
 				4C8145BB18E5169700FA565A /* UIModule.m */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		4C8145C418E5181200FA565A /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				4C8145C518E5182600FA565A /* UIModuleSpec.mm */,
+				2225FDE9BB696E631352A547 /* NetworkModule.m */,
+				2225F9FEDEF77FFBD57BF6FA /* NetworkModule.h */,
+				2225F92CBED5E79032067389 /* InjectorProvider.m */,
+				2225F2505B1A22EAFBA465A9 /* InjectorProvider.h */,
+				2225F7D69CE3204D81E2C21A /* FoundationModule.m */,
+				2225FFF8E0C1013B1F990D53 /* FoundationModule.h */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -438,8 +484,14 @@
 		4CA3C86118E77C260082556D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				4CA3C86218E77C840082556D /* APIClient.h */,
-				4CA3C86318E77C840082556D /* APIClient.m */,
+				4CA3C86218E77C840082556D /* ArtistsService.h */,
+				4CA3C86318E77C840082556D /* ArtistsService.m */,
+				4CAB2EA51ACF600B002AB81E /* RequestProvider.h */,
+				4CAB2EA61ACF600B002AB81E /* RequestProvider.m */,
+				2225F31DE7A12821D08FB6D8 /* HTTPClient.m */,
+				2225FB862053BDF37895A4C6 /* HTTPClient.h */,
+				2225F8BA27105B8EC773EE8D /* JSONClient.m */,
+				2225F038A06F1D4D1EB0B2D8 /* JSONClient.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -460,11 +512,10 @@
 				4C8145A718E5133900FA565A /* AppDelegateSpec.mm */,
 				4C8145C718E5194900FA565A /* Controllers */,
 				AE0D92FE18EF6C9E0043F06A /* Fakes */,
-				4C8145C418E5181200FA565A /* Modules */,
 				4CA3C87B18E78AE20082556D /* Presenters */,
-				4C8145A818E5133900FA565A /* SpecHelper+BestPractices.h */,
-				4C8145A918E5133900FA565A /* SpecHelper+BestPractices.m */,
 				4CA4824C18E50EE900E524B6 /* Supporting Files */,
+				2225F89358E509AF97A1D4CC /* Network */,
+				2225F6051E7FBA8A2520675C /* Fixtures */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -752,6 +803,7 @@
 			files = (
 				4CA4825D18E50F1100E524B6 /* Images.xcassets in Resources */,
 				4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */,
+				2225FB31721D9F0035209F18 /* artists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,6 +815,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */,
+				4CAB2EA71ACF600B002AB81E /* RequestProvider.m in Sources */,
 				4CAA2CF418E79CEA00488E9B /* ArtistCellPresenter.m in Sources */,
 				4CAA2CF018E79C9B00488E9B /* Artist.m in Sources */,
 				4C8145BC18E5169700FA565A /* ViewController.m in Sources */,
@@ -771,7 +824,12 @@
 				4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */,
 				4C1650D918E50CA1000336FD /* main.m in Sources */,
 				4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
-				4CA3C86418E77C840082556D /* APIClient.m in Sources */,
+				4CA3C86418E77C840082556D /* ArtistsService.m in Sources */,
+				2225F8685C87791451F87892 /* HTTPClient.m in Sources */,
+				2225F7DA142A2DA92BDB35F5 /* JSONClient.m in Sources */,
+				2225FB3AEBA39757263BC8A9 /* NetworkModule.m in Sources */,
+				2225FE5BED01473F71B63378 /* InjectorProvider.m in Sources */,
+				2225FD911CE7FDBA49E61750 /* FoundationModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,21 +840,29 @@
 				4CA3C88318E78E070082556D /* CellPresenterDataSourceSpec.mm in Sources */,
 				4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */,
 				4CA4825C18E50F0E00E524B6 /* AppDelegate.m in Sources */,
+				4CAB2EA81ACF600B002AB81E /* RequestProvider.m in Sources */,
 				4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */,
 				4CA4825218E50EE900E524B6 /* main.m in Sources */,
 				4C8145BF18E5169700FA565A /* UIModule.m in Sources */,
 				4CAA2CF518E79CEA00488E9B /* ArtistCellPresenter.m in Sources */,
 				AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */,
 				AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */,
-				4C8145AC18E5133900FA565A /* SpecHelper+BestPractices.m in Sources */,
-				4C8145C618E5182600FA565A /* UIModuleSpec.mm in Sources */,
 				4CAA2CF118E79C9B00488E9B /* Artist.m in Sources */,
-				4CA3C86518E77C840082556D /* APIClient.m in Sources */,
+				4CA3C86518E77C840082556D /* ArtistsService.m in Sources */,
 				4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */,
 				4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
 				4C8145C918E5194900FA565A /* ViewControllerSpec.mm in Sources */,
 				4C8145BD18E5169700FA565A /* ViewController.m in Sources */,
 				AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */,
+				4CBB0C401AD0715F00F03491 /* ArtistsServiceSpec.mm in Sources */,
+				2225F526C12E802C9A23F066 /* HTTPClient.m in Sources */,
+				2225FDE8FD3E7AFB0D28245B /* JSONClient.m in Sources */,
+				2225FE53D11DF6DDDD676231 /* HTTPClientSpec.mm in Sources */,
+				2225FC0F494B4C351C0109D2 /* JSONClientSpec.mm in Sources */,
+				2225F3A2DE8E773C632E1932 /* NetworkModule.m in Sources */,
+				2225FE2769FD86FCA0B0B5C4 /* InjectorProvider.m in Sources */,
+				2225F21C2FA322E2A5BA27B2 /* FoundationModule.m in Sources */,
+				2225F472519CEC81D230222B /* RequestProviderSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

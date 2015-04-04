@@ -1,5 +1,6 @@
 #import "Cedar.h"
-#import "SpecHelper+BestPractices.h"
+#import "InjectorProvider.h"
+#import "Blindside.h"
 #import "CellPresenterDataSource.h"
 #import "CellPresenter.h"
 
@@ -12,10 +13,10 @@ SPEC_BEGIN(CellPresenterDataSourceSpec)
 
 describe(@"CellPresenterDataSource", ^{
     __block CellPresenterDataSource *subject;
-    __block id<BSBinder,BSInjector> injector;
+    __block id<BSBinder, BSInjector> injector;
 
     beforeEach(^{
-        injector = [SpecHelper injector];
+        injector = (id)[InjectorProvider injector];
 
         subject = [injector getInstance:[CellPresenterDataSource class]];
     });
