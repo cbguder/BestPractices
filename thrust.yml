@@ -9,6 +9,7 @@ spec_targets:
     scheme: BestPracticesSpecs
     build_configuration: Debug
     device_name: iPhone 6
+    os_version: 8.1
 
 spec_directories:
   - Specs

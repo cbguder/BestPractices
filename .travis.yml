@@ -2,4 +2,4 @@ language: objective-c
 install:
   - brew install ios-sim
   - bundle install
-script: rake
+script: bundle exec rake
