@@ -11,7 +11,7 @@
 
 @implementation Artist
 
-- (id)initWithId:(NSString *)artistId name:(NSString *)name {
+- (instancetype)initWithId:(NSString *)artistId name:(NSString *)name {
     self = [super init];
     if (self) {
         self.artistId = artistId;

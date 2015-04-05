@@ -21,7 +21,7 @@
                                   argumentKeys:[CellPresenterDataSource class], nil];
 }
 
-- (id)initWithCellPresenterDataSource:(CellPresenterDataSource *)cellPresenterDataSource {
+- (instancetype)initWithCellPresenterDataSource:(CellPresenterDataSource *)cellPresenterDataSource {
     self = [super init];
     if (self) {
         self.cellPresenterDataSource = cellPresenterDataSource;

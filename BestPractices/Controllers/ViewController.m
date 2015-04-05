@@ -26,8 +26,8 @@
             nil];
 }
 
-- (id)initWithArtistsPresenter:(ArtistsPresenter *)artistsPresenter
-                     apiClient:(ArtistsService *)apiClient {
+- (instancetype)initWithArtistsPresenter:(ArtistsPresenter *)artistsPresenter
+                               apiClient:(ArtistsService *)apiClient {
     self = [super init];
     if (self) {
         self.artistsPresenter = artistsPresenter;
