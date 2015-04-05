@@ -18,9 +18,9 @@
     return [BSInitializer initializerWithClass:self
                                       selector:@selector(initWithOperationQueue:networkClient:)
                                   argumentKeys:
-                                          [NSOperationQueue class],
-                                          @protocol(KSNetworkClient),
-                    nil];
+            [NSOperationQueue class],
+            @protocol(KSNetworkClient),
+            nil];
 }
 
 - (instancetype)initWithOperationQueue:(NSOperationQueue *)operationQueue

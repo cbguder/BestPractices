@@ -486,12 +486,12 @@
 			children = (
 				4CA3C86218E77C840082556D /* ArtistsService.h */,
 				4CA3C86318E77C840082556D /* ArtistsService.m */,
+				2225FB862053BDF37895A4C6 /* HTTPClient.h */,
+				2225F31DE7A12821D08FB6D8 /* HTTPClient.m */,
+				2225F038A06F1D4D1EB0B2D8 /* JSONClient.h */,
+				2225F8BA27105B8EC773EE8D /* JSONClient.m */,
 				4CAB2EA51ACF600B002AB81E /* RequestProvider.h */,
 				4CAB2EA61ACF600B002AB81E /* RequestProvider.m */,
-				2225F31DE7A12821D08FB6D8 /* HTTPClient.m */,
-				2225FB862053BDF37895A4C6 /* HTTPClient.h */,
-				2225F8BA27105B8EC773EE8D /* JSONClient.m */,
-				2225F038A06F1D4D1EB0B2D8 /* JSONClient.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
