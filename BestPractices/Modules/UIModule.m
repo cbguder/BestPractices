@@ -1,6 +1,6 @@
 #import "UIModule.h"
 #import "InjectorKeys.h"
-#import "ViewController.h"
+#import "ArtistsViewController.h"
 
 
 @implementation UIModule
@@ -16,8 +16,8 @@
     }];
 
     [binder bind:InjectorKeyRootViewController toBlock:^id(NSArray *args, id<BSInjector> injector) {
-        ViewController *viewController = [injector getInstance:[ViewController class]];
-        return [[UINavigationController alloc] initWithRootViewController:viewController];
+        ArtistsViewController *artistsViewController = [injector getInstance:[ArtistsViewController class]];
+        return [[UINavigationController alloc] initWithRootViewController:artistsViewController];
     }];
 }
 

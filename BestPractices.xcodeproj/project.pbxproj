@@ -30,13 +30,13 @@
 		4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650DC18E50CA1000336FD /* AppDelegate.m */; };
 		4C1650DF18E50CA1000336FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1650DE18E50CA1000336FD /* Images.xcassets */; };
 		4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A718E5133900FA565A /* AppDelegateSpec.mm */; };
-		4C8145BC18E5169700FA565A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ViewController.m */; };
-		4C8145BD18E5169700FA565A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ViewController.m */; };
+		4C8145BC18E5169700FA565A /* ArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ArtistsViewController.m */; };
+		4C8145BD18E5169700FA565A /* ArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ArtistsViewController.m */; };
 		4C8145BE18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
 		4C8145BF18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
 		4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
 		4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
-		4C8145C918E5194900FA565A /* ViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C818E5194900FA565A /* ViewControllerSpec.mm */; };
+		4C8145C918E5194900FA565A /* ArtistsViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C818E5194900FA565A /* ArtistsViewControllerSpec.mm */; };
 		4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
 		4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
 		4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
@@ -265,13 +265,13 @@
 		4C1650DE18E50CA1000336FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C1650E518E50CA1000336FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4C8145A718E5133900FA565A /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
-		4C8145B718E5169700FA565A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C8145B818E5169700FA565A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C8145B718E5169700FA565A /* ArtistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsViewController.h; sourceTree = "<group>"; };
+		4C8145B818E5169700FA565A /* ArtistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsViewController.m; sourceTree = "<group>"; };
 		4C8145BA18E5169700FA565A /* UIModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIModule.h; sourceTree = "<group>"; };
 		4C8145BB18E5169700FA565A /* UIModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIModule.m; sourceTree = "<group>"; };
 		4C8145C018E5173700FA565A /* InjectorKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorKeys.h; sourceTree = "<group>"; };
 		4C8145C118E5173700FA565A /* InjectorKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorKeys.m; sourceTree = "<group>"; };
-		4C8145C818E5194900FA565A /* ViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerSpec.mm; sourceTree = "<group>"; };
+		4C8145C818E5194900FA565A /* ArtistsViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistsViewControllerSpec.mm; sourceTree = "<group>"; };
 		4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		4CA3C85918E77B3B0082556D /* CellPresenterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPresenterDataSource.h; sourceTree = "<group>"; };
 		4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPresenterDataSource.m; sourceTree = "<group>"; };
@@ -407,8 +407,8 @@
 		4C8145B618E5169700FA565A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4C8145B718E5169700FA565A /* ViewController.h */,
-				4C8145B818E5169700FA565A /* ViewController.m */,
+				4C8145B718E5169700FA565A /* ArtistsViewController.h */,
+				4C8145B818E5169700FA565A /* ArtistsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -433,7 +433,7 @@
 		4C8145C718E5194900FA565A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4C8145C818E5194900FA565A /* ViewControllerSpec.mm */,
+				4C8145C818E5194900FA565A /* ArtistsViewControllerSpec.mm */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -818,7 +818,7 @@
 				4CAB2EA71ACF600B002AB81E /* RequestProvider.m in Sources */,
 				4CAA2CF418E79CEA00488E9B /* ArtistCellPresenter.m in Sources */,
 				4CAA2CF018E79C9B00488E9B /* Artist.m in Sources */,
-				4C8145BC18E5169700FA565A /* ViewController.m in Sources */,
+				4C8145BC18E5169700FA565A /* ArtistsViewController.m in Sources */,
 				4C8145BE18E5169700FA565A /* UIModule.m in Sources */,
 				4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */,
 				4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */,
@@ -851,8 +851,8 @@
 				4CA3C86518E77C840082556D /* ArtistsService.m in Sources */,
 				4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */,
 				4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
-				4C8145C918E5194900FA565A /* ViewControllerSpec.mm in Sources */,
-				4C8145BD18E5169700FA565A /* ViewController.m in Sources */,
+				4C8145C918E5194900FA565A /* ArtistsViewControllerSpec.mm in Sources */,
+				4C8145BD18E5169700FA565A /* ArtistsViewController.m in Sources */,
 				AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */,
 				4CBB0C401AD0715F00F03491 /* ArtistsServiceSpec.mm in Sources */,
 				2225F526C12E802C9A23F066 /* HTTPClient.m in Sources */,

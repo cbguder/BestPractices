@@ -1,5 +1,5 @@
 #import "Cedar.h"
-#import "ViewController.h"
+#import "ArtistsViewController.h"
 #import "InjectorProvider.h"
 #import "Blindside.h"
 #import "ArtistsPresenter.h"
@@ -11,10 +11,10 @@ using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
 
 
-SPEC_BEGIN(ViewControllerSpec)
+SPEC_BEGIN(ArtistsViewControllerSpec)
 
-describe(@"ViewController", ^{
-    __block ViewController *subject;
+describe(@"ArtistsViewController", ^{
+    __block ArtistsViewController *subject;
     __block id<BSBinder, BSInjector> injector;
     __block ArtistsPresenter *artistsPresenter;
     __block ArtistsService *apiClient;
@@ -33,7 +33,7 @@ describe(@"ViewController", ^{
         apiClient = nice_fake_for([ArtistsService class]);
         [injector bind:[ArtistsService class] toInstance:apiClient];
 
-        subject = [injector getInstance:[ViewController class]];
+        subject = [injector getInstance:[ArtistsViewController class]];
         subject.view should_not be_nil;
     });
 

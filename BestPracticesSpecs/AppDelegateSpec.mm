@@ -1,6 +1,6 @@
 #import "Cedar.h"
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "ArtistsViewController.h"
 
 
 using namespace Cedar::Matchers;
@@ -21,7 +21,7 @@ describe(@"AppDelegate", ^{
     it(@"should set the root view controller", ^{
         UINavigationController *navigationController = (id)subject.window.rootViewController;
         navigationController should be_instance_of([UINavigationController class]);
-        navigationController.topViewController should be_instance_of([ViewController class]);
+        navigationController.topViewController should be_instance_of([ArtistsViewController class]);
     });
 
     it(@"should display the window", ^{

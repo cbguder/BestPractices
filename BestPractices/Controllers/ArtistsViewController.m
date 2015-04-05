@@ -1,11 +1,11 @@
-#import "ViewController.h"
+#import "ArtistsViewController.h"
 #import "Blindside.h"
 #import "ArtistsService.h"
 #import "ArtistsPresenter.h"
 #import "KSPromise.h"
 
 
-@interface ViewController ()
+@interface ArtistsViewController ()
 
 @property (nonatomic) ArtistsPresenter *artistsPresenter;
 @property (nonatomic) UITableView *tableView;
@@ -14,7 +14,7 @@
 @end
 
 
-@implementation ViewController
+@implementation ArtistsViewController
 
 + (BSInitializer *)bsInitializer {
     return [BSInitializer initializerWithClass:self
