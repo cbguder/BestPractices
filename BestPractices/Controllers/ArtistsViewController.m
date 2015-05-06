@@ -1,8 +1,8 @@
 #import "ArtistsViewController.h"
 #import "Blindside.h"
 #import "ArtistsService.h"
-#import "ArtistsPresenter.h"
 #import "KSPromise.h"
+#import "ArtistViewController.h"
 
 
 @interface ArtistsViewController ()
@@ -10,6 +10,7 @@
 @property (nonatomic) ArtistsPresenter *artistsPresenter;
 @property (nonatomic) UITableView *tableView;
 @property (nonatomic) ArtistsService *apiClient;
+@property (nonatomic, weak) id<BSInjector> injector;
 
 @end
 
@@ -31,6 +32,7 @@
     self = [super init];
     if (self) {
         self.artistsPresenter = artistsPresenter;
+        self.artistsPresenter.delegate = self;
         self.apiClient = apiClient;
     }
     return self;
@@ -38,7 +40,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     self.title = @"Artists";
 
     self.tableView = [[UITableView alloc] init];
@@ -60,6 +62,15 @@
 
         return nil;
     } error:nil];
+}
+
+#pragma mark - <ArtistsPresenterDelegate>
+
+- (void)artistsPresenterDidSelectArtist:(Artist *)artist {
+    ArtistViewController *artistViewController = [self.injector getInstance:[ArtistViewController class]];
+    [artistViewController setupWithArtist:artist];
+
+    [self.navigationController pushViewController:artistViewController animated:YES];
 }
 
 @end

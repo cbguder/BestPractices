@@ -16,11 +16,15 @@
 		2225FB31721D9F0035209F18 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2225F5A602D89DA85B78DBD2 /* artists.json */; };
 		2225FB3AEBA39757263BC8A9 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225FDE9BB696E631352A547 /* NetworkModule.m */; };
 		2225FC0F494B4C351C0109D2 /* JSONClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */; };
+		2225FC41AAD3AC205BA2B147 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F182E9479D9347EBA74A /* ArtistViewController.m */; };
+		2225FCE21A3C48126F568409 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F182E9479D9347EBA74A /* ArtistViewController.m */; };
 		2225FD911CE7FDBA49E61750 /* FoundationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F7D69CE3204D81E2C21A /* FoundationModule.m */; };
 		2225FDE8FD3E7AFB0D28245B /* JSONClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F8BA27105B8EC773EE8D /* JSONClient.m */; };
 		2225FE2769FD86FCA0B0B5C4 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F92CBED5E79032067389 /* InjectorProvider.m */; };
 		2225FE53D11DF6DDDD676231 /* HTTPClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */; };
+		2225FE5745B7206AD538C119 /* ArtistViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F3025C16CE3BBA32DDE9 /* ArtistViewControllerSpec.mm */; };
 		2225FE5BED01473F71B63378 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F92CBED5E79032067389 /* InjectorProvider.m */; };
+		4C04CE111AF86922005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04CE071AF868DE005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */; };
 		4C0B92FF1ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
 		4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
 		4C1650CD18E50CA1000336FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
@@ -68,6 +72,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4C04CE021AF868DE005DA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC24168B999F0056EE83;
+			remoteInfo = "UIKit+PivotalCore-StaticLib";
+		};
+		4C04CE041AF868DE005DA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC64168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+		4C04CE061AF868DE005DA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEC40C89174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
+		4C04CE081AF868DE005DA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC34168B99ED0056EE83;
+			remoteInfo = "UIKit-StaticLibSpec";
+		};
+		4C04CE0A1AF868DE005DA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE118AA218D6B57000C90D6B;
+			remoteInfo = "UIKit-StaticLibSpecBundle";
+		};
+		4C04CE0F1AF8691B005DA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC40C88174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
 		4C0B92EA1ACF598000DE75AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
@@ -240,7 +286,9 @@
 
 /* Begin PBXFileReference section */
 		2225F038A06F1D4D1EB0B2D8 /* JSONClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONClient.h; sourceTree = "<group>"; };
+		2225F182E9479D9347EBA74A /* ArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
 		2225F2505B1A22EAFBA465A9 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectorProvider.h; sourceTree = "<group>"; };
+		2225F3025C16CE3BBA32DDE9 /* ArtistViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistViewControllerSpec.mm; sourceTree = "<group>"; };
 		2225F31DE7A12821D08FB6D8 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
 		2225F5A602D89DA85B78DBD2 /* artists.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = artists.json; sourceTree = "<group>"; };
 		2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HTTPClientSpec.mm; sourceTree = "<group>"; };
@@ -249,10 +297,12 @@
 		2225F92CBED5E79032067389 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectorProvider.m; sourceTree = "<group>"; };
 		2225F9FEDEF77FFBD57BF6FA /* NetworkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkModule.h; sourceTree = "<group>"; };
 		2225FB862053BDF37895A4C6 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		2225FB87FF291BDC4ABDA95D /* ArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
 		2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RequestProviderSpec.mm; sourceTree = "<group>"; };
 		2225FDE9BB696E631352A547 /* NetworkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkModule.m; sourceTree = "<group>"; };
 		2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSONClientSpec.mm; sourceTree = "<group>"; };
 		2225FFF8E0C1013B1F990D53 /* FoundationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationModule.h; sourceTree = "<group>"; };
+		4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = PivotalCoreKit/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
 		4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		4C1650C918E50CA1000336FD /* BestPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1650CC18E50CA1000336FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -319,6 +369,7 @@
 				4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */,
 				4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */,
 				4CA4828718E5108900E524B6 /* libDeferred.a in Frameworks */,
+				4C04CE111AF86922005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */,
 				4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */,
 				4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */,
 				4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */,
@@ -345,6 +396,18 @@
 				2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		4C04CDE61AF868DD005DA4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C04CE031AF868DE005DA4D6 /* libUIKit+PivotalCore-StaticLib.a */,
+				4C04CE051AF868DE005DA4D6 /* libUIKit+PivotalSpecHelper-StaticLib.a */,
+				4C04CE071AF868DE005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */,
+				4C04CE091AF868DE005DA4D6 /* UIKit-StaticLibSpec.app */,
+				4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4C1650C018E50CA1000336FD = {
@@ -409,6 +472,8 @@
 			children = (
 				4C8145B718E5169700FA565A /* ArtistsViewController.h */,
 				4C8145B818E5169700FA565A /* ArtistsViewController.m */,
+				2225F182E9479D9347EBA74A /* ArtistViewController.m */,
+				2225FB87FF291BDC4ABDA95D /* ArtistViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -434,6 +499,7 @@
 			isa = PBXGroup;
 			children = (
 				4C8145C818E5194900FA565A /* ArtistsViewControllerSpec.mm */,
+				2225F3025C16CE3BBA32DDE9 /* ArtistViewControllerSpec.mm */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -444,6 +510,7 @@
 				4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */,
 				4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */,
 				4CA4827518E5106800E524B6 /* Deferred.xcodeproj */,
+				4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -604,6 +671,7 @@
 				4CA4827318E5100F00E524B6 /* PBXTargetDependency */,
 				4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */,
 				4CA4828618E5108200E524B6 /* PBXTargetDependency */,
+				4C04CE101AF8691B005DA4D6 /* PBXTargetDependency */,
 			);
 			name = BestPracticesSpecs;
 			productName = Specs;
@@ -642,6 +710,10 @@
 					ProductGroup = 4CA4827618E5106800E524B6 /* Products */;
 					ProjectRef = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
 				},
+				{
+					ProductGroup = 4C04CDE61AF868DD005DA4D6 /* Products */;
+					ProjectRef = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -652,6 +724,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4C04CE031AF868DE005DA4D6 /* libUIKit+PivotalCore-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalCore-StaticLib.a";
+			remoteRef = 4C04CE021AF868DE005DA4D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C04CE051AF868DE005DA4D6 /* libUIKit+PivotalSpecHelper-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelper-StaticLib.a";
+			remoteRef = 4C04CE041AF868DE005DA4D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C04CE071AF868DE005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelperStubs-StaticLib.a";
+			remoteRef = 4C04CE061AF868DE005DA4D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C04CE091AF868DE005DA4D6 /* UIKit-StaticLibSpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "UIKit-StaticLibSpec.app";
+			remoteRef = 4C04CE081AF868DE005DA4D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UIKit-StaticLibSpecBundle.octest";
+			remoteRef = 4C04CE0A1AF868DE005DA4D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4C0B92EB1ACF598000DE75AC /* Cedar OS X Host App.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -830,6 +937,7 @@
 				2225FB3AEBA39757263BC8A9 /* NetworkModule.m in Sources */,
 				2225FE5BED01473F71B63378 /* InjectorProvider.m in Sources */,
 				2225FD911CE7FDBA49E61750 /* FoundationModule.m in Sources */,
+				2225FC41AAD3AC205BA2B147 /* ArtistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,12 +971,19 @@
 				2225FE2769FD86FCA0B0B5C4 /* InjectorProvider.m in Sources */,
 				2225F21C2FA322E2A5BA27B2 /* FoundationModule.m in Sources */,
 				2225F472519CEC81D230222B /* RequestProviderSpec.mm in Sources */,
+				2225FCE21A3C48126F568409 /* ArtistViewController.m in Sources */,
+				2225FE5745B7206AD538C119 /* ArtistViewControllerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4C04CE101AF8691B005DA4D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelperStubs-StaticLib";
+			targetProxy = 4C04CE0F1AF8691B005DA4D6 /* PBXContainerItemProxy */;
+		};
 		4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Cedar-StaticLib";

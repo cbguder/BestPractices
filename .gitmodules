@@ -7,3 +7,6 @@
 [submodule "Externals/deferred"]
 	path = Externals/deferred
 	url = https://github.com/kseebaldt/deferred.git
+[submodule "Externals/PivotalCoreKit"]
+	path = Externals/PivotalCoreKit
+	url = git@github.com:pivotal/PivotalCoreKit.git

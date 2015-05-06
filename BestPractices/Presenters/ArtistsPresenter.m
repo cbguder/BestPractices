@@ -1,6 +1,5 @@
 #import "ArtistsPresenter.h"
 #import "Blindside.h"
-#import "CellPresenterDataSource.h"
 #import "Artist.h"
 #import "ArtistCellPresenter.h"
 
@@ -25,6 +24,7 @@
     self = [super init];
     if (self) {
         self.cellPresenterDataSource = cellPresenterDataSource;
+        self.cellPresenterDataSource.delegate = self;
     }
     return self;
 }
@@ -41,6 +41,12 @@
     }
     
     [self.cellPresenterDataSource displayCellPresenters:cellPresenters inTableView:tableView];
+}
+
+#pragma mark - <CellPresenterDataSourceDelegate>
+
+- (void)cellPresenterDataSourceDidSelectCellPresenter:(ArtistCellPresenter *)artistCellPresenter {
+    [self.delegate artistsPresenterDidSelectArtist:artistCellPresenter.artist];
 }
 
 @end

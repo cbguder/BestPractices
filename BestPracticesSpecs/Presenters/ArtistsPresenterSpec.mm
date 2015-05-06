@@ -28,6 +28,7 @@ describe(@"ArtistsPresenter", ^{
         tableView = [[UITableView alloc] init];
 
         subject = [injector getInstance:[ArtistsPresenter class]];
+        subject.delegate = nice_fake_for(@protocol(ArtistsPresenterDelegate));
     });
     
     it(@"should generate artist cell presenters and hand them over to the cell presenter data source", ^{
@@ -55,9 +56,30 @@ describe(@"ArtistsPresenter", ^{
         
         [subject presentArtists:artists inTableView:tableView];
         
-        ArtistCellPresenter *cellPresenter = [cellPresenterDataSource.cellPresenters firstObject];
+        ArtistCellPresenter *cellPresenter = cellPresenterDataSource.cellPresenters.firstObject;
         
         [tableView dequeueReusableCellWithIdentifier:cellPresenter.cellIdentifier] should_not be_nil;
+    });
+
+    describe(@"as a cell presenter data source's delegate", ^{
+        it(@"should set itself as the cell presenter data source's delegate", ^{
+            cellPresenterDataSource.delegate should be_same_instance_as(subject);
+        });
+
+        it(@"should inform its delegate when the user taps on a cell", ^{
+            NSArray *artists = @[
+                fake_for([Artist class]),
+                fake_for([Artist class]),
+                fake_for([Artist class])
+            ];
+
+            [subject presentArtists:artists inTableView:tableView];
+
+            ArtistCellPresenter *cellPresenter = cellPresenterDataSource.cellPresenters[1];
+            [subject cellPresenterDataSourceDidSelectCellPresenter:cellPresenter];
+
+            subject.delegate should have_received(@selector(artistsPresenterDidSelectArtist:)).with(artists[1]);
+        });
     });
 });
 

@@ -36,4 +36,11 @@
     return cell;
 }
 
+#pragma mark - <UITableViewDelegate>
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    id cellPresenter = self.cellPresenters[indexPath.row];
+    [self.delegate cellPresenterDataSourceDidSelectCellPresenter:cellPresenter];
+}
+
 @end

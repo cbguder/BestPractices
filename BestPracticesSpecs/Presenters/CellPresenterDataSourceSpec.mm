@@ -19,19 +19,27 @@ describe(@"CellPresenterDataSource", ^{
         injector = (id)[InjectorProvider injector];
 
         subject = [injector getInstance:[CellPresenterDataSource class]];
+        subject.delegate = nice_fake_for(@protocol(CellPresenterDataSourceDelegate));
     });
 
     describe(@"displaying cell presenters in a table view", ^{
         __block UITableView *tableView;
-        __block id<CellPresenter> cellPresenter;
+        __block NSArray *cellPresenters;
+
+        id (^createCellPresenter)() = ^id {
+            id cellPresenter = nice_fake_for(@protocol(CellPresenter));
+            cellPresenter stub_method(@selector(cellIdentifier)).and_return(@"My Cell Identifier");
+            return cellPresenter;
+        };
 
         beforeEach(^{
             tableView = nice_fake_for([UITableView class]);
 
-            cellPresenter = nice_fake_for(@protocol(CellPresenter));
-            cellPresenter stub_method(@selector(cellIdentifier)).and_return(@"My Cell Identifier");
-
-            NSArray *cellPresenters = @[cellPresenter, cellPresenter, cellPresenter];
+            cellPresenters = @[
+                createCellPresenter(),
+                createCellPresenter(),
+                createCellPresenter()
+            ];
 
             [subject displayCellPresenters:cellPresenters inTableView:tableView];
         });
@@ -54,10 +62,17 @@ describe(@"CellPresenterDataSource", ^{
 
             tableView stub_method(@selector(dequeueReusableCellWithIdentifier:)).with(@"My Cell Identifier").and_return(tableViewCell);
 
-            UITableViewCell *cell = [subject tableView:tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+            UITableViewCell *cell = [subject tableView:tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:2 inSection:0]];
 
-            cellPresenter should have_received(@selector(presentInCell:)).with(cell);
+            cellPresenters[2] should have_received(@selector(presentInCell:)).with(cell);
             cell should be_same_instance_as(tableViewCell);
+        });
+
+        it(@"should inform its delegate when a cell is tapped", ^{
+            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:1 inSection:0];
+            [subject tableView:tableView didSelectRowAtIndexPath:indexPath];
+
+            subject.delegate should have_received(@selector(cellPresenterDataSourceDidSelectCellPresenter:)).with(cellPresenters[1]);
         });
     });
 });
