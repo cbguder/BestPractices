@@ -9,4 +9,4 @@
 	url = https://github.com/kseebaldt/deferred.git
 [submodule "Externals/PivotalCoreKit"]
 	path = Externals/PivotalCoreKit
-	url = git@github.com:pivotal/PivotalCoreKit.git
+	url = https://github.com/pivotal/PivotalCoreKit.git
