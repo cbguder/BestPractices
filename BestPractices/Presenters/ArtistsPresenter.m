@@ -32,7 +32,7 @@
 - (void)presentArtists:(NSArray *)artists inTableView:(UITableView *)tableView {
     [ArtistCellPresenter registerInTableView:tableView];
 
-    NSMutableArray *cellPresenters = [NSMutableArray arrayWithCapacity:[artists count]];
+    NSMutableArray *cellPresenters = [NSMutableArray arrayWithCapacity:artists.count];
     
     for (Artist *artist in artists) {
         ArtistCellPresenter *cellPresenter = [self.injector getInstance:[ArtistCellPresenter class]];

@@ -42,7 +42,7 @@ describe(@"ArtistsPresenter", ^{
         
         cellPresenterDataSource.tableView should be_same_instance_as(tableView);
 
-        [cellPresenterDataSource.cellPresenters count] should equal(3);
+        cellPresenterDataSource.cellPresenters.count should equal(3);
 
         for (int i = 0; i < 3; i++) {
             ArtistCellPresenter *cellPresenter = cellPresenterDataSource.cellPresenters[i];

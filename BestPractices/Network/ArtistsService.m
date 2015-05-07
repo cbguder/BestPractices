@@ -42,7 +42,7 @@
     KSPromise *jsonPromise = [self.jsonClient sendRequest:request];
 
     KSPromise *promise = [jsonPromise then:^id(NSArray *artistsJSON) {
-        NSMutableArray *artists = [NSMutableArray arrayWithCapacity:[artistsJSON count]];
+        NSMutableArray *artists = [NSMutableArray arrayWithCapacity:artistsJSON.count];
 
         for (NSDictionary *artistJSON in artistsJSON) {
             Artist *artist = [[Artist alloc] initWithId:artistJSON[@"id"]
