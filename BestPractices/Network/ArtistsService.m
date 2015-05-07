@@ -3,7 +3,6 @@
 #import "KSDeferred.h"
 #import "Artist.h"
 #import "RequestProvider.h"
-#import "KSNetworkClient.h"
 #import "JSONClient.h"
 
 
