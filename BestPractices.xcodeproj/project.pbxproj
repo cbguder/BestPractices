@@ -69,6 +69,8 @@
 		AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */; };
 		AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */; };
 		AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */; };
+		FAFFB95D1B2CECBF0057D078 /* DomainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB95C1B2CECBF0057D078 /* DomainModule.m */; };
+		FAFFB95E1B2CED170057D078 /* DomainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB95C1B2CECBF0057D078 /* DomainModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,6 +349,8 @@
 		AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistsPresenterSpec.mm; sourceTree = "<group>"; };
 		AE0D92FF18EF6CB30043F06A /* FakeCellPresenterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeCellPresenterDataSource.h; sourceTree = "<group>"; };
 		AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeCellPresenterDataSource.m; sourceTree = "<group>"; };
+		FAFFB95B1B2CECBF0057D078 /* DomainModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainModule.h; sourceTree = "<group>"; };
+		FAFFB95C1B2CECBF0057D078 /* DomainModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,14 +487,16 @@
 			children = (
 				4C8145C018E5173700FA565A /* InjectorKeys.h */,
 				4C8145C118E5173700FA565A /* InjectorKeys.m */,
+				2225F2505B1A22EAFBA465A9 /* InjectorProvider.h */,
+				2225F92CBED5E79032067389 /* InjectorProvider.m */,
 				4C8145BA18E5169700FA565A /* UIModule.h */,
 				4C8145BB18E5169700FA565A /* UIModule.m */,
-				2225FDE9BB696E631352A547 /* NetworkModule.m */,
 				2225F9FEDEF77FFBD57BF6FA /* NetworkModule.h */,
-				2225F92CBED5E79032067389 /* InjectorProvider.m */,
-				2225F2505B1A22EAFBA465A9 /* InjectorProvider.h */,
-				2225F7D69CE3204D81E2C21A /* FoundationModule.m */,
+				2225FDE9BB696E631352A547 /* NetworkModule.m */,
 				2225FFF8E0C1013B1F990D53 /* FoundationModule.h */,
+				2225F7D69CE3204D81E2C21A /* FoundationModule.m */,
+				FAFFB95B1B2CECBF0057D078 /* DomainModule.h */,
+				FAFFB95C1B2CECBF0057D078 /* DomainModule.m */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -928,6 +934,7 @@
 				4C8145BC18E5169700FA565A /* ArtistsViewController.m in Sources */,
 				4C8145BE18E5169700FA565A /* UIModule.m in Sources */,
 				4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */,
+				FAFFB95D1B2CECBF0057D078 /* DomainModule.m in Sources */,
 				4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */,
 				4C1650D918E50CA1000336FD /* main.m in Sources */,
 				4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
@@ -964,6 +971,7 @@
 				AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */,
 				4CBB0C401AD0715F00F03491 /* ArtistsServiceSpec.mm in Sources */,
 				2225F526C12E802C9A23F066 /* HTTPClient.m in Sources */,
+				FAFFB95E1B2CED170057D078 /* DomainModule.m in Sources */,
 				2225FDE8FD3E7AFB0D28245B /* JSONClient.m in Sources */,
 				2225FE53D11DF6DDDD676231 /* HTTPClientSpec.mm in Sources */,
 				2225FC0F494B4C351C0109D2 /* JSONClientSpec.mm in Sources */,

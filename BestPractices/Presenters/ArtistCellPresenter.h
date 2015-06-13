@@ -7,6 +7,8 @@
 
 @interface ArtistCellPresenter : NSObject <CellPresenter>
 
-@property (nonatomic) Artist *artist;
+@property (nonatomic, readonly) Artist *artist;
+
+- (instancetype)initWithArtist:(Artist *)artist;
 
 @end
