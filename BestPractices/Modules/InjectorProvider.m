@@ -3,6 +3,7 @@
 #import "FoundationModule.h"
 #import "NetworkModule.h"
 #import "UIModule.h"
+#import "DomainModule.h"
 
 
 @implementation InjectorProvider
@@ -11,7 +12,8 @@
     NSArray *modules = @[
         [[FoundationModule alloc] init],
         [[NetworkModule alloc] init],
-        [[UIModule alloc] init]
+        [[UIModule alloc] init],
+        [[DomainModule alloc] init]
     ];
 
     return [Blindside injectorWithModules:modules];

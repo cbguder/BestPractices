@@ -35,9 +35,7 @@
     NSMutableArray *cellPresenters = [NSMutableArray arrayWithCapacity:artists.count];
     
     for (Artist *artist in artists) {
-        ArtistCellPresenter *cellPresenter = [self.injector getInstance:[ArtistCellPresenter class]];
-        cellPresenter.artist = artist;
-        [cellPresenters addObject:cellPresenter];
+        [cellPresenters addObject:[self.injector getInstance:[ArtistCellPresenter class] withArgs:artist, nil]];
     }
     
     [self.cellPresenterDataSource displayCellPresenters:cellPresenters inTableView:tableView];

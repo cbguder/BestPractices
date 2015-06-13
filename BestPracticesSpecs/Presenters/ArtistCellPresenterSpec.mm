@@ -19,9 +19,9 @@ describe(@"ArtistCellPresenter", ^{
     beforeEach(^{
         injector = (id)[InjectorProvider injector];
 
-        subject = [injector getInstance:[ArtistCellPresenter class]];
-        
-        subject.artist = [[Artist alloc] initWithId:@"1" name:@"Pink Floyd"];
+        Artist *artist = [[Artist alloc] initWithId:@"1" name:@"Pink Floyd"];
+
+        subject = [injector getInstance:[ArtistCellPresenter class] withArgs:artist, nil];
         
         cell = [[UITableViewCell alloc] init];
         [subject presentInCell:cell];
