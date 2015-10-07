@@ -1,0 +1,6 @@
+checkout:
+  post:
+    - git submodule update --init
+test:
+  override:
+    - bundle exec rake
