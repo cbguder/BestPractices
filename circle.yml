@@ -1,6 +1,8 @@
 checkout:
   post:
     - git submodule update --init
+    - brew update
+    - brew install ios-sim
 test:
   override:
     - bundle exec rake
