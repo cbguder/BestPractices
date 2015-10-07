@@ -7,68 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2225F21C2FA322E2A5BA27B2 /* FoundationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F7D69CE3204D81E2C21A /* FoundationModule.m */; };
-		2225F3A2DE8E773C632E1932 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225FDE9BB696E631352A547 /* NetworkModule.m */; };
-		2225F472519CEC81D230222B /* RequestProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */; };
-		2225F526C12E802C9A23F066 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F31DE7A12821D08FB6D8 /* HTTPClient.m */; };
 		2225F7DA142A2DA92BDB35F5 /* JSONClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F8BA27105B8EC773EE8D /* JSONClient.m */; };
 		2225F8685C87791451F87892 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F31DE7A12821D08FB6D8 /* HTTPClient.m */; };
-		2225FB31721D9F0035209F18 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2225F5A602D89DA85B78DBD2 /* artists.json */; };
 		2225FB3AEBA39757263BC8A9 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225FDE9BB696E631352A547 /* NetworkModule.m */; };
-		2225FC0F494B4C351C0109D2 /* JSONClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */; };
 		2225FC41AAD3AC205BA2B147 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F182E9479D9347EBA74A /* ArtistViewController.m */; };
-		2225FCE21A3C48126F568409 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F182E9479D9347EBA74A /* ArtistViewController.m */; };
 		2225FD911CE7FDBA49E61750 /* FoundationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F7D69CE3204D81E2C21A /* FoundationModule.m */; };
-		2225FDE8FD3E7AFB0D28245B /* JSONClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F8BA27105B8EC773EE8D /* JSONClient.m */; };
-		2225FE2769FD86FCA0B0B5C4 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F92CBED5E79032067389 /* InjectorProvider.m */; };
-		2225FE53D11DF6DDDD676231 /* HTTPClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */; };
-		2225FE5745B7206AD538C119 /* ArtistViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F3025C16CE3BBA32DDE9 /* ArtistViewControllerSpec.mm */; };
 		2225FE5BED01473F71B63378 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2225F92CBED5E79032067389 /* InjectorProvider.m */; };
-		4C04CE111AF86922005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04CE071AF868DE005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */; };
 		4C0B92FF1ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
-		4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B92FE1ACF5D7100DE75AC /* Launch Screen.xib */; };
 		4C1650CD18E50CA1000336FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
 		4C1650CF18E50CA1000336FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CE18E50CA1000336FD /* CoreGraphics.framework */; };
 		4C1650D118E50CA1000336FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650D018E50CA1000336FD /* UIKit.framework */; };
 		4C1650D918E50CA1000336FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650D818E50CA1000336FD /* main.m */; };
 		4C1650DD18E50CA1000336FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650DC18E50CA1000336FD /* AppDelegate.m */; };
 		4C1650DF18E50CA1000336FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1650DE18E50CA1000336FD /* Images.xcassets */; };
-		4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A718E5133900FA565A /* AppDelegateSpec.mm */; };
+		4C18B1B61BC4E2E300CF54F4 /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145A718E5133900FA565A /* AppDelegateSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1B71BC4E2E700CF54F4 /* ArtistsViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C818E5194900FA565A /* ArtistsViewControllerSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1B81BC4E2EA00CF54F4 /* ArtistViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F3025C16CE3BBA32DDE9 /* ArtistViewControllerSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1B91BC4E2EF00CF54F4 /* FakeCellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		4C18B1BA1BC4E2F300CF54F4 /* ArtistCellPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1BB1BC4E2F600CF54F4 /* ArtistsPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1BC1BC4E2F900CF54F4 /* CellPresenterDataSourceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1BE1BC4E30800CF54F4 /* ArtistsServiceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB0C3F1AD0715F00F03491 /* ArtistsServiceSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1BF1BC4E30800CF54F4 /* HTTPClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225F6CA33682145B828BC8D /* HTTPClientSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1C01BC4E30800CF54F4 /* JSONClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FF83F6A1F3603EF1DE61 /* JSONClientSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1C11BC4E30800CF54F4 /* RequestProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2225FBFF7DE7C89C66D1FA71 /* RequestProviderSpec.mm */; settings = {ASSET_TAGS = (); }; };
+		4C18B1C21BC4E31000CF54F4 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2225F5A602D89DA85B78DBD2 /* artists.json */; settings = {ASSET_TAGS = (); }; };
+		4C18B1C51BC4E3D200CF54F4 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C833A9F18E50DD30011D3C3 /* libCedar-StaticLib.a */; };
+		4C18B1CA1BC4E43900CF54F4 /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04CE051AF868DE005DA4D6 /* libUIKit+PivotalSpecHelper-StaticLib.a */; };
+		4C18B1CB1BC4E43C00CF54F4 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04CE071AF868DE005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */; };
 		4C8145BC18E5169700FA565A /* ArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ArtistsViewController.m */; };
-		4C8145BD18E5169700FA565A /* ArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145B818E5169700FA565A /* ArtistsViewController.m */; };
 		4C8145BE18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
-		4C8145BF18E5169700FA565A /* UIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145BB18E5169700FA565A /* UIModule.m */; };
 		4C8145C218E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
-		4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C118E5173700FA565A /* InjectorKeys.m */; };
-		4C8145C918E5194900FA565A /* ArtistsViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8145C818E5194900FA565A /* ArtistsViewControllerSpec.mm */; };
 		4CA3C85B18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
-		4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85A18E77B3B0082556D /* CellPresenterDataSource.m */; };
 		4CA3C85F18E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
-		4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C85E18E77BB70082556D /* ArtistsPresenter.m */; };
 		4CA3C86418E77C840082556D /* ArtistsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* ArtistsService.m */; };
-		4CA3C86518E77C840082556D /* ArtistsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C86318E77C840082556D /* ArtistsService.m */; };
-		4CA3C88318E78E070082556D /* CellPresenterDataSourceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */; };
-		4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650D018E50CA1000336FD /* UIKit.framework */; };
-		4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CC18E50CA1000336FD /* Foundation.framework */; };
-		4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1650CE18E50CA1000336FD /* CoreGraphics.framework */; };
-		4CA4825218E50EE900E524B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4825118E50EE900E524B6 /* main.m */; };
-		4CA4825C18E50F0E00E524B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1650DC18E50CA1000336FD /* AppDelegate.m */; };
-		4CA4825D18E50F1100E524B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1650DE18E50CA1000336FD /* Images.xcassets */; };
-		4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C833A9F18E50DD30011D3C3 /* libCedar-StaticLib.a */; };
 		4CA4827118E5100B00E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
-		4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4826E18E50FF800E524B6 /* libBlindside-StaticLib.a */; };
 		4CA4828418E5107C00E524B6 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4827D18E5106800E524B6 /* libDeferred.a */; };
-		4CA4828718E5108900E524B6 /* libDeferred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA4827D18E5106800E524B6 /* libDeferred.a */; };
 		4CAA2CF018E79C9B00488E9B /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CEF18E79C9B00488E9B /* Artist.m */; };
-		4CAA2CF118E79C9B00488E9B /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CEF18E79C9B00488E9B /* Artist.m */; };
 		4CAA2CF418E79CEA00488E9B /* ArtistCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */; };
-		4CAA2CF518E79CEA00488E9B /* ArtistCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2CF318E79CEA00488E9B /* ArtistCellPresenter.m */; };
 		4CAB2EA71ACF600B002AB81E /* RequestProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB2EA61ACF600B002AB81E /* RequestProvider.m */; };
-		4CAB2EA81ACF600B002AB81E /* RequestProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB2EA61ACF600B002AB81E /* RequestProvider.m */; };
-		4CBB0C401AD0715F00F03491 /* ArtistsServiceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB0C3F1AD0715F00F03491 /* ArtistsServiceSpec.mm */; };
-		AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92EB18EF5BE40043F06A /* ArtistCellPresenterSpec.mm */; };
-		AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE0D92FC18EF6B2F0043F06A /* ArtistsPresenterSpec.mm */; };
-		AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D930018EF6CB30043F06A /* FakeCellPresenterDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,13 +83,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = AE118AA218D6B57000C90D6B;
 			remoteInfo = "UIKit-StaticLibSpecBundle";
-		};
-		4C04CE0F1AF8691B005DA4D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AEC40C88174C203700474D2D;
-			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
 		};
 		4C0B92EA1ACF598000DE75AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -205,6 +175,34 @@
 			remoteGlobalIDString = AE4864931B066A10005DB302;
 			remoteInfo = "Deferred-OSX-Framework";
 		};
+		4C18B1B11BC4E2CC00CF54F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1650C118E50CA1000336FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1650C818E50CA1000336FD;
+			remoteInfo = BestPractices;
+		};
+		4C18B1C31BC4E3CD00CF54F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE222811DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		4C18B1C61BC4E42C00CF54F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBCCC63168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+		4C18B1C81BC4E43000CF54F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C04CDE51AF868DD005DA4D6 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC40C88174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
 		4C833A9818E50DD30011D3C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
@@ -261,13 +259,6 @@
 			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
 			remoteInfo = XCUnitAppTests;
 		};
-		4CA4825E18E50FAE00E524B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C833A8A18E50DD30011D3C3 /* Cedar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AEEE222811DC2B0600029872;
-			remoteInfo = "Cedar-StaticLib";
-		};
 		4CA4826918E50FF800E524B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
@@ -296,13 +287,6 @@
 			remoteGlobalIDString = 29997B461505EC0B00C12110;
 			remoteInfo = "Blindside-StaticLib";
 		};
-		4CA4827218E5100F00E524B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 29997B461505EC0B00C12110;
-			remoteInfo = "Blindside-StaticLib";
-		};
 		4CA4827C18E5106800E524B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
@@ -318,13 +302,6 @@
 			remoteInfo = "Deferred-OSX";
 		};
 		4CA4828218E5107700E524B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E18A7B1415674D9B0083D745;
-			remoteInfo = Deferred;
-		};
-		4CA4828518E5108200E524B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CA4827518E5106800E524B6 /* Deferred.xcodeproj */;
 			proxyType = 1;
@@ -363,6 +340,7 @@
 		4C1650DC18E50CA1000336FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C1650DE18E50CA1000336FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C1650E518E50CA1000336FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C18B1AC1BC4E2CB00CF54F4 /* BestPracticesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestPracticesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8145A718E5133900FA565A /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
 		4C8145B718E5169700FA565A /* ArtistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsViewController.h; sourceTree = "<group>"; };
 		4C8145B818E5169700FA565A /* ArtistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsViewController.m; sourceTree = "<group>"; };
@@ -380,9 +358,7 @@
 		4CA3C86318E77C840082556D /* ArtistsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsService.m; sourceTree = "<group>"; };
 		4CA3C86B18E78A780082556D /* CellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPresenter.h; sourceTree = "<group>"; };
 		4CA3C88218E78E070082556D /* CellPresenterDataSourceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CellPresenterDataSourceSpec.mm; sourceTree = "<group>"; };
-		4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPracticesSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CA4824D18E50EE900E524B6 /* BestPracticesSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BestPracticesSpecs-Info.plist"; sourceTree = "<group>"; };
-		4CA4825118E50EE900E524B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CA4824D18E50EE900E524B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA4826118E50FF800E524B6 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		4CA4827518E5106800E524B6 /* Deferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Deferred.xcodeproj; path = deferred/Deferred.xcodeproj; sourceTree = "<group>"; };
 		4CAA2CEE18E79C9B00488E9B /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
@@ -411,17 +387,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CA4824418E50EE900E524B6 /* Frameworks */ = {
+		4C18B1A91BC4E2CB00CF54F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA4827418E5101400E524B6 /* libBlindside-StaticLib.a in Frameworks */,
-				4CA4826018E50FB300E524B6 /* libCedar-StaticLib.a in Frameworks */,
-				4CA4828718E5108900E524B6 /* libDeferred.a in Frameworks */,
-				4C04CE111AF86922005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */,
-				4CA4824A18E50EE900E524B6 /* CoreGraphics.framework in Frameworks */,
-				4CA4824818E50EE900E524B6 /* UIKit.framework in Frameworks */,
-				4CA4824918E50EE900E524B6 /* Foundation.framework in Frameworks */,
+				4C18B1C51BC4E3D200CF54F4 /* libCedar-StaticLib.a in Frameworks */,
+				4C18B1CA1BC4E43900CF54F4 /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */,
+				4C18B1CB1BC4E43C00CF54F4 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +435,7 @@
 			isa = PBXGroup;
 			children = (
 				4C1650D218E50CA1000336FD /* BestPractices */,
-				4CA4824B18E50EE900E524B6 /* BestPracticesSpecs */,
+				4CA4824B18E50EE900E524B6 /* BestPracticesTests */,
 				4C833A8918E50DBE0011D3C3 /* Externals */,
 				4C1650CB18E50CA1000336FD /* Frameworks */,
 				4C1650CA18E50CA1000336FD /* Products */,
@@ -474,7 +446,7 @@
 			isa = PBXGroup;
 			children = (
 				4C1650C918E50CA1000336FD /* BestPractices.app */,
-				4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */,
+				4C18B1AC1BC4E2CB00CF54F4 /* BestPracticesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -622,7 +594,7 @@
 			path = Presenters;
 			sourceTree = "<group>";
 		};
-		4CA4824B18E50EE900E524B6 /* BestPracticesSpecs */ = {
+		4CA4824B18E50EE900E524B6 /* BestPracticesTests */ = {
 			isa = PBXGroup;
 			children = (
 				4C8145A718E5133900FA565A /* AppDelegateSpec.mm */,
@@ -633,14 +605,13 @@
 				2225F89358E509AF97A1D4CC /* Network */,
 				2225F6051E7FBA8A2520675C /* Fixtures */,
 			);
-			path = BestPracticesSpecs;
+			path = BestPracticesTests;
 			sourceTree = "<group>";
 		};
 		4CA4824C18E50EE900E524B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CA4824D18E50EE900E524B6 /* BestPracticesSpecs-Info.plist */,
-				4CA4825118E50EE900E524B6 /* main.m */,
+				4CA4824D18E50EE900E524B6 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -713,26 +684,26 @@
 			productReference = 4C1650C918E50CA1000336FD /* BestPractices.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CA4824618E50EE900E524B6 /* BestPracticesSpecs */ = {
+		4C18B1AB1BC4E2CB00CF54F4 /* BestPracticesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CA4825918E50EEA00E524B6 /* Build configuration list for PBXNativeTarget "BestPracticesSpecs" */;
+			buildConfigurationList = 4C18B1B31BC4E2CC00CF54F4 /* Build configuration list for PBXNativeTarget "BestPracticesTests" */;
 			buildPhases = (
-				4CA4824318E50EE900E524B6 /* Sources */,
-				4CA4824418E50EE900E524B6 /* Frameworks */,
-				4CA4824518E50EE900E524B6 /* Resources */,
+				4C18B1A81BC4E2CB00CF54F4 /* Sources */,
+				4C18B1A91BC4E2CB00CF54F4 /* Frameworks */,
+				4C18B1AA1BC4E2CB00CF54F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4CA4827318E5100F00E524B6 /* PBXTargetDependency */,
-				4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */,
-				4CA4828618E5108200E524B6 /* PBXTargetDependency */,
-				4C04CE101AF8691B005DA4D6 /* PBXTargetDependency */,
+				4C18B1B21BC4E2CC00CF54F4 /* PBXTargetDependency */,
+				4C18B1C41BC4E3CD00CF54F4 /* PBXTargetDependency */,
+				4C18B1C71BC4E42C00CF54F4 /* PBXTargetDependency */,
+				4C18B1C91BC4E43000CF54F4 /* PBXTargetDependency */,
 			);
-			name = BestPracticesSpecs;
-			productName = Specs;
-			productReference = 4CA4824718E50EE900E524B6 /* BestPracticesSpecs.app */;
-			productType = "com.apple.product-type.application";
+			name = BestPracticesTests;
+			productName = BestPracticesTests;
+			productReference = 4C18B1AC1BC4E2CB00CF54F4 /* BestPracticesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -742,6 +713,12 @@
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = CBG;
+				TargetAttributes = {
+					4C18B1AB1BC4E2CB00CF54F4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4C1650C818E50CA1000336FD;
+					};
+				};
 			};
 			buildConfigurationList = 4C1650C418E50CA1000336FD /* Build configuration list for PBXProject "BestPractices" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -774,7 +751,7 @@
 			projectRoot = "";
 			targets = (
 				4C1650C818E50CA1000336FD /* BestPractices */,
-				4CA4824618E50EE900E524B6 /* BestPracticesSpecs */,
+				4C18B1AB1BC4E2CB00CF54F4 /* BestPracticesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1009,13 +986,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CA4824518E50EE900E524B6 /* Resources */ = {
+		4C18B1AA1BC4E2CB00CF54F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA4825D18E50F1100E524B6 /* Images.xcassets in Resources */,
-				4C0B93001ACF5D7100DE75AC /* Launch Screen.xib in Resources */,
-				2225FB31721D9F0035209F18 /* artists.json in Resources */,
+				4C18B1C21BC4E31000CF54F4 /* artists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1046,73 +1021,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CA4824318E50EE900E524B6 /* Sources */ = {
+		4C18B1A81BC4E2CB00CF54F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA3C88318E78E070082556D /* CellPresenterDataSourceSpec.mm in Sources */,
-				4C8145C318E5173700FA565A /* InjectorKeys.m in Sources */,
-				4CA4825C18E50F0E00E524B6 /* AppDelegate.m in Sources */,
-				4CAB2EA81ACF600B002AB81E /* RequestProvider.m in Sources */,
-				4C8145AB18E5133900FA565A /* AppDelegateSpec.mm in Sources */,
-				4CA4825218E50EE900E524B6 /* main.m in Sources */,
-				4C8145BF18E5169700FA565A /* UIModule.m in Sources */,
-				4CAA2CF518E79CEA00488E9B /* ArtistCellPresenter.m in Sources */,
-				AE0D92EC18EF5BE40043F06A /* ArtistCellPresenterSpec.mm in Sources */,
-				AE0D930118EF6CB30043F06A /* FakeCellPresenterDataSource.m in Sources */,
-				4CAA2CF118E79C9B00488E9B /* Artist.m in Sources */,
-				4CA3C86518E77C840082556D /* ArtistsService.m in Sources */,
-				4CA3C86018E77BB70082556D /* ArtistsPresenter.m in Sources */,
-				4CA3C85C18E77B3B0082556D /* CellPresenterDataSource.m in Sources */,
-				4C8145C918E5194900FA565A /* ArtistsViewControllerSpec.mm in Sources */,
-				4C8145BD18E5169700FA565A /* ArtistsViewController.m in Sources */,
-				AE0D92FD18EF6B2F0043F06A /* ArtistsPresenterSpec.mm in Sources */,
-				4CBB0C401AD0715F00F03491 /* ArtistsServiceSpec.mm in Sources */,
-				2225F526C12E802C9A23F066 /* HTTPClient.m in Sources */,
-				2225FDE8FD3E7AFB0D28245B /* JSONClient.m in Sources */,
-				2225FE53D11DF6DDDD676231 /* HTTPClientSpec.mm in Sources */,
-				2225FC0F494B4C351C0109D2 /* JSONClientSpec.mm in Sources */,
-				2225F3A2DE8E773C632E1932 /* NetworkModule.m in Sources */,
-				2225FE2769FD86FCA0B0B5C4 /* InjectorProvider.m in Sources */,
-				2225F21C2FA322E2A5BA27B2 /* FoundationModule.m in Sources */,
-				2225F472519CEC81D230222B /* RequestProviderSpec.mm in Sources */,
-				2225FCE21A3C48126F568409 /* ArtistViewController.m in Sources */,
-				2225FE5745B7206AD538C119 /* ArtistViewControllerSpec.mm in Sources */,
+				4C18B1BA1BC4E2F300CF54F4 /* ArtistCellPresenterSpec.mm in Sources */,
+				4C18B1BE1BC4E30800CF54F4 /* ArtistsServiceSpec.mm in Sources */,
+				4C18B1B81BC4E2EA00CF54F4 /* ArtistViewControllerSpec.mm in Sources */,
+				4C18B1BF1BC4E30800CF54F4 /* HTTPClientSpec.mm in Sources */,
+				4C18B1B71BC4E2E700CF54F4 /* ArtistsViewControllerSpec.mm in Sources */,
+				4C18B1BC1BC4E2F900CF54F4 /* CellPresenterDataSourceSpec.mm in Sources */,
+				4C18B1B91BC4E2EF00CF54F4 /* FakeCellPresenterDataSource.m in Sources */,
+				4C18B1C01BC4E30800CF54F4 /* JSONClientSpec.mm in Sources */,
+				4C18B1BB1BC4E2F600CF54F4 /* ArtistsPresenterSpec.mm in Sources */,
+				4C18B1C11BC4E30800CF54F4 /* RequestProviderSpec.mm in Sources */,
+				4C18B1B61BC4E2E300CF54F4 /* AppDelegateSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C04CE101AF8691B005DA4D6 /* PBXTargetDependency */ = {
+		4C18B1B21BC4E2CC00CF54F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "UIKit+PivotalSpecHelperStubs-StaticLib";
-			targetProxy = 4C04CE0F1AF8691B005DA4D6 /* PBXContainerItemProxy */;
+			target = 4C1650C818E50CA1000336FD /* BestPractices */;
+			targetProxy = 4C18B1B11BC4E2CC00CF54F4 /* PBXContainerItemProxy */;
 		};
-		4CA4825F18E50FAE00E524B6 /* PBXTargetDependency */ = {
+		4C18B1C41BC4E3CD00CF54F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Cedar-StaticLib";
-			targetProxy = 4CA4825E18E50FAE00E524B6 /* PBXContainerItemProxy */;
+			targetProxy = 4C18B1C31BC4E3CD00CF54F4 /* PBXContainerItemProxy */;
+		};
+		4C18B1C71BC4E42C00CF54F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelper-StaticLib";
+			targetProxy = 4C18B1C61BC4E42C00CF54F4 /* PBXContainerItemProxy */;
+		};
+		4C18B1C91BC4E43000CF54F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelperStubs-StaticLib";
+			targetProxy = 4C18B1C81BC4E43000CF54F4 /* PBXContainerItemProxy */;
 		};
 		4CA4827018E5100700E524B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Blindside-StaticLib";
 			targetProxy = 4CA4826F18E5100700E524B6 /* PBXContainerItemProxy */;
 		};
-		4CA4827318E5100F00E524B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Blindside-StaticLib";
-			targetProxy = 4CA4827218E5100F00E524B6 /* PBXContainerItemProxy */;
-		};
 		4CA4828318E5107700E524B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Deferred;
 			targetProxy = 4CA4828218E5107700E524B6 /* PBXContainerItemProxy */;
-		};
-		4CA4828618E5108200E524B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Deferred;
-			targetProxy = 4CA4828518E5108200E524B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1222,28 +1180,42 @@
 			};
 			name = Release;
 		};
-		4CA4825A18E50EEA00E524B6 /* Debug */ = {
+		4C18B1B41BC4E2CC00CF54F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "BestPracticesSpecs/BestPracticesSpecs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.cbg.${PRODUCT_NAME:rfc1034identifier}";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BestPracticesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.cbg.BestPracticesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
-				WRAPPER_EXTENSION = app;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestPractices.app/BestPractices";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/Public/**";
 			};
 			name = Debug;
 		};
-		4CA4825B18E50EEA00E524B6 /* Release */ = {
+		4C18B1B51BC4E2CC00CF54F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "BestPracticesSpecs/BestPracticesSpecs-Info.plist";
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.cbg.${PRODUCT_NAME:rfc1034identifier}";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BestPracticesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.cbg.BestPracticesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/**";
-				WRAPPER_EXTENSION = app;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestPractices.app/BestPractices";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Externals/cedar/Source/Headers/Public/**";
 			};
 			name = Release;
 		};
@@ -1268,14 +1240,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CA4825918E50EEA00E524B6 /* Build configuration list for PBXNativeTarget "BestPracticesSpecs" */ = {
+		4C18B1B31BC4E2CC00CF54F4 /* Build configuration list for PBXNativeTarget "BestPracticesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CA4825A18E50EEA00E524B6 /* Debug */,
-				4CA4825B18E50EEA00E524B6 /* Release */,
+				4C18B1B41BC4E2CC00CF54F4 /* Debug */,
+				4C18B1B51BC4E2CC00CF54F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

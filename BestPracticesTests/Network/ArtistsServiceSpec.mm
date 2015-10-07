@@ -50,7 +50,7 @@ describe(@"ArtistsService", ^{
         });
 
         it(@"resolves the promise with an array of artists when the request succeeds", ^{
-            NSString *fixturePath = [[NSBundle mainBundle] pathForResource:@"artists" ofType:@"json"];
+            NSString *fixturePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"artists" ofType:@"json"];
             NSData *fixtureData = [NSData dataWithContentsOfFile:fixturePath];
             NSArray *jsonArtists = [NSJSONSerialization JSONObjectWithData:fixtureData options:0 error:nil];
             [jsonDeferred resolveWithValue:jsonArtists];
