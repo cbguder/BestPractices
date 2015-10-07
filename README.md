@@ -2,7 +2,7 @@
 
 A collection of things I consider to be best practices in test-driven iOS development
 
-<a href="https://travis-ci.org/cbguder/BestPractices"><img src="https://travis-ci.org/cbguder/BestPractices.svg?branch=master" alt="Build Status"></a>
+[![Circle CI](https://circleci.com/gh/cbguder/BestPractices/tree/master.svg?style=svg)](https://circleci.com/gh/cbguder/BestPractices/tree/master)
 
 ## Practices and Principles
 
