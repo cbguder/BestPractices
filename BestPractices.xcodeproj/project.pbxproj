@@ -788,7 +788,7 @@
 		4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "UIKit-StaticLibSpecBundle.octest";
+			path = "UIKit-StaticLibSpecBundle.xctest";
 			remoteRef = 4C04CE0A1AF868DE005DA4D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -914,14 +914,14 @@
 		4C833AA118E50DD30011D3C3 /* Cedar iOS Specs.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = "Cedar iOS Specs.app";
+			path = "Cedar-StaticLib Specs.app";
 			remoteRef = 4C833AA018E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4C833AA318E50DD30011D3C3 /* Cedar iOS FrameworkSpecs.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = "Cedar iOS FrameworkSpecs.app";
+			path = "Cedar-iOS StaticFrameworkSpecs.app";
 			remoteRef = 4C833AA218E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1247,6 +1247,7 @@
 				4C18B1B51BC4E2CC00CF54F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
