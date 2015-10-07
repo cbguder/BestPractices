@@ -15,7 +15,9 @@ describe(@"AppDelegate", ^{
     beforeEach(^{
         subject = [[AppDelegate alloc] init];
 
-        [subject application:nil didFinishLaunchingWithOptions:nil];
+        UIApplication *application = fake_for([UIApplication class]);
+
+        [subject application:application didFinishLaunchingWithOptions:nil];
     });
 
     it(@"should set the root view controller", ^{
