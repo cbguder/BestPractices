@@ -426,7 +426,7 @@
 				4C04CE051AF868DE005DA4D6 /* libUIKit+PivotalSpecHelper-StaticLib.a */,
 				4C04CE071AF868DE005DA4D6 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */,
 				4C04CE091AF868DE005DA4D6 /* UIKit-StaticLibSpec.app */,
-				4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.octest */,
+				4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -543,8 +543,8 @@
 				4C833A9B18E50DD30011D3C3 /* Cedar OS X Specs */,
 				4C833A9D18E50DD30011D3C3 /* Cedar OS X FocusedSpecs */,
 				4C833A9F18E50DD30011D3C3 /* libCedar-StaticLib.a */,
-				4C833AA118E50DD30011D3C3 /* Cedar iOS Specs.app */,
-				4C833AA318E50DD30011D3C3 /* Cedar iOS FrameworkSpecs.app */,
+				4C833AA118E50DD30011D3C3 /* Cedar-StaticLib Specs.app */,
+				4C833AA318E50DD30011D3C3 /* Cedar-iOS StaticFrameworkSpecs.app */,
 				4C833AA518E50DD30011D3C3 /* Cedar iOS Host App.app */,
 				4C833AA918E50DD30011D3C3 /* XCUnitAppTests.xctest */,
 				4C0B92EB1ACF598000DE75AC /* Cedar OS X Host App.app */,
@@ -785,7 +785,7 @@
 			remoteRef = 4C04CE081AF868DE005DA4D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.octest */ = {
+		4C04CE0B1AF868DE005DA4D6 /* UIKit-StaticLibSpecBundle.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "UIKit-StaticLibSpecBundle.xctest";
@@ -911,14 +911,14 @@
 			remoteRef = 4C833A9E18E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833AA118E50DD30011D3C3 /* Cedar iOS Specs.app */ = {
+		4C833AA118E50DD30011D3C3 /* Cedar-StaticLib Specs.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "Cedar-StaticLib Specs.app";
 			remoteRef = 4C833AA018E50DD30011D3C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C833AA318E50DD30011D3C3 /* Cedar iOS FrameworkSpecs.app */ = {
+		4C833AA318E50DD30011D3C3 /* Cedar-iOS StaticFrameworkSpecs.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "Cedar-iOS StaticFrameworkSpecs.app";
@@ -1163,6 +1163,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BestPractices/BestPractices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.cbg.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1174,6 +1175,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BestPractices/BestPractices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.cbg.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
