@@ -18,7 +18,7 @@ describe(@"ArtistsViewController", ^{
     __block ArtistsViewController *subject;
     __block id<BSBinder, BSInjector> injector;
     __block ArtistsPresenter *artistsPresenter;
-    __block ArtistsService *apiClient;
+    __block ArtistsService *artistsService;
 
     void (^makeViewAppear)() = ^{
         [subject viewWillAppear:NO];
@@ -31,8 +31,8 @@ describe(@"ArtistsViewController", ^{
         artistsPresenter = nice_fake_for([ArtistsPresenter class]);
         [injector bind:[ArtistsPresenter class] toInstance:artistsPresenter];
 
-        apiClient = nice_fake_for([ArtistsService class]);
-        [injector bind:[ArtistsService class] toInstance:apiClient];
+        artistsService = nice_fake_for([ArtistsService class]);
+        [injector bind:[ArtistsService class] toInstance:artistsService];
 
         subject = [injector getInstance:[ArtistsViewController class]];
         subject.view should_not be_nil;
@@ -44,7 +44,7 @@ describe(@"ArtistsViewController", ^{
         beforeEach(^{
             deferred = [KSDeferred defer];
 
-            apiClient stub_method(@selector(getArtists)).and_return(deferred.promise);
+            artistsService stub_method(@selector(getArtists)).and_return(deferred.promise);
 
             makeViewAppear();
         });

@@ -4,7 +4,7 @@
 
 @interface ArtistViewController ()
 
-@property(nonatomic, strong) Artist *artist;
+@property (nonatomic) Artist *artist;
 
 @end
 

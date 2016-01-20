@@ -28,27 +28,23 @@
 }
 
 - (KSPromise *)sendRequest:(NSURLRequest *)request {
-    KSDeferred *deferred = [KSDeferred defer];
-
     KSPromise *httpPromise = [self.httpClient sendRequest:request];
-    [httpPromise then:^id(NSData *data) {
+
+    KSPromise *promise = [httpPromise then:^id(NSData *data) {
         NSError *error = nil;
 
         id jsonObject = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 
         if (error) {
-            [deferred rejectWithError:error];
+            return error;
         } else {
-            [deferred resolveWithValue:jsonObject];
+            return jsonObject;
         }
-
-        return nil;
     } error:^id(NSError *error) {
-        [deferred rejectWithError:error];
-        return nil;
+        return error;
     }];
 
-    return deferred.promise;
+    return promise;
 }
 
 @end

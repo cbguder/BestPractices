@@ -8,8 +8,8 @@
 
 @interface ArtistsService ()
 
-@property(nonatomic) RequestProvider *requestProvider;
-@property(nonatomic) JSONClient *jsonClient;
+@property (nonatomic) RequestProvider *requestProvider;
+@property (nonatomic) JSONClient *jsonClient;
 
 @end
 

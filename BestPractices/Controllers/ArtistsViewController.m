@@ -9,7 +9,8 @@
 
 @property (nonatomic) ArtistsPresenter *artistsPresenter;
 @property (nonatomic) UITableView *tableView;
-@property (nonatomic) ArtistsService *apiClient;
+@property (nonatomic) ArtistsService *artistsService;
+
 @property (nonatomic, weak) id<BSInjector> injector;
 
 @end
@@ -20,7 +21,7 @@
 + (BSInitializer *)bsInitializer {
     return [BSInitializer initializerWithClass:self
                                       selector:@selector(initWithArtistsPresenter:
-                                                         apiClient:)
+                                                         artistsService:)
                                   argumentKeys:
             [ArtistsPresenter class],
             [ArtistsService class],
@@ -28,12 +29,12 @@
 }
 
 - (instancetype)initWithArtistsPresenter:(ArtistsPresenter *)artistsPresenter
-                               apiClient:(ArtistsService *)apiClient {
+                          artistsService:(ArtistsService *)artistsService {
     self = [super init];
     if (self) {
         self.artistsPresenter = artistsPresenter;
         self.artistsPresenter.delegate = self;
-        self.apiClient = apiClient;
+        self.artistsService = artistsService;
     }
     return self;
 }
@@ -52,14 +53,9 @@
 
     self.tableView.frame = self.view.bounds;
 
-    KSPromise *promise = [self.apiClient getArtists];
-
-    __weak typeof(self) weakSelf = self;
+    KSPromise *promise = [self.artistsService getArtists];
     [promise then:^id(NSArray *artists) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-
-        [strongSelf.artistsPresenter presentArtists:artists inTableView:strongSelf.tableView];
-
+        [self.artistsPresenter presentArtists:artists inTableView:self.tableView];
         return nil;
     } error:nil];
 }

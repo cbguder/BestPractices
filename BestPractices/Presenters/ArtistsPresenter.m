@@ -7,6 +7,7 @@
 @interface ArtistsPresenter ()
 
 @property (nonatomic) CellPresenterDataSource *cellPresenterDataSource;
+
 @property (nonatomic, weak) id<BSInjector> injector;
 
 @end
